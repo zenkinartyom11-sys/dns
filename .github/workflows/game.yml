@@ -44,6 +44,7 @@ jobs:
         env:
           XRAY_PATH: /tmp/xraybin/xray
           FORCE_REPLACE: ${{ inputs.force_replace == true && '1' || '0' }}
+          MAX_CANDIDATES: ${{ inputs.force_replace == true && '16' || '6' }}
 
       - name: 5. Отчёт прогона в лог
         run: |
