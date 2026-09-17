@@ -1,2 +1,1 @@
-happ://add/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3plbmtpbmFydHlvbTExLXN5cy9kbnMvbWFpbi9nYW1lX2NvbmZpZy5qc29u
 https://raw.githubusercontent.com/zenkinartyom11-sys/dns/main/game_config.json
