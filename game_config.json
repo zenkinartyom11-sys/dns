@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "167.17.69.171",
+            "address": "195.123.213.28",
             "port": 443,
             "users": [
               {
-                "id": "00144519-7e0d-476b-8d28-435576af9262",
+                "id": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -117,9 +117,9 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.cloudflare.com",
-          "publicKey": "ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk",
-          "fingerprint": "chrome",
-          "shortId": "0990d22f"
+          "publicKey": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
+          "fingerprint": "firefox",
+          "shortId": "5c256336e3b673fa"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.50.200",
-            "port": 8443,
+            "address": "72.56.81.165",
+            "port": 40443,
             "users": [
               {
-                "id": "6038e39a-d05e-483d-b853-a176707d4f69",
+                "id": "4bf5a71c-d726-4585-b095-7396675706d5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
-          "fingerprint": "firefox",
-          "shortId": ""
+          "serverName": "deepl.com",
+          "publicKey": "D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU",
+          "fingerprint": "chrome",
+          "shortId": "c84f"
         }
       }
     },
