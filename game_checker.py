@@ -298,6 +298,9 @@ def main():
     dead_tags = [o.get("tag", f"out{i}") for i, o in enumerate(outbounds) if not results.get(o.get("tag", f"out{i}"), (False,))[0]]
     report = [f"# GAME CHECK {time.strftime('%Y-%m-%d %H:%M')} UTC",
               f"Серверов в конфиге: {len(outbounds)}; мёртвых: {len(dead_tags)}"]
+    if os.environ.get("FORCE_REPLACE", "") == "1" and outbounds:
+        dead_tags = [o.get("tag", f"out{i}") for i, o in enumerate(outbounds)]
+        report.append("FORCE_REPLACE=1: принудительная замена ВСЕХ серверов (живой на GitHub ≠ доступный с телефона/МТС)")
 
     # --- 2. Если всё живо — выходим, файл не трогаем ---
     if not dead_tags:
@@ -349,6 +352,7 @@ def main():
         if tag not in dead_tags:
             continue
         pool = by_type.get(sig_old, [])
+        pool = [c for c in pool if c["host"] != cur["address"]]   # не предлагать текущий сервер
         random.shuffle(pool)
         if not pool:
             print(f"[!] {tag}: нет кандидатов типа {sig_old} — оставляю как есть (тип менять нельзя).")
