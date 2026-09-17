@@ -1,5 +1,8 @@
-# GAME CHECK 2026-09-17 09:07 UTC
-Серверов в конфиге: 2; мёртвых: 0
-proxy: ЖИВ 45.149.172.80:443 ping=0.18s udp=да
-amazon: ЖИВ 169.40.42.163:443 ping=0.31s udp=да
-Все серверы живы — конфиг не менялся.
+# GAME CHECK 2026-09-17 09:15 UTC
+Серверов в конфиге: 2; мёртвых (по проверке с GitHub): 0
+Режим: замена ВСЕХ серверов свежими при каждом прогоне
+proxy: заменён -> 167.17.69.171:443 sni=www.cloudflare.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён)
+amazon: заменён -> 31.58.50.200:8443 sni=tradingview.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён)
+URL подписки для Happ: https://raw.githubusercontent.com/zenkinartyom11-sys/dns/main/game_config.json
+Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3plbmtpbmFydHlvbTExLXN5cy9kbnMvbWFpbi9nYW1lX2NvbmZpZy5qc29u
+Время: 23 сек
