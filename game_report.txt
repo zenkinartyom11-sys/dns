@@ -1,8 +1,8 @@
-# GAME CHECK 2026-09-17 10:29 UTC
+# GAME CHECK 2026-09-17 10:48 UTC
 Серверов в конфиге: 2; мёртвых (по проверке с GitHub): 0
 Режим: замена ВСЕХ серверов свежими при каждом прогоне
 proxy: заменён -> 217.60.37.56:443 sni=fr-1.lunoa.ru (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: ЛИЧНЫЙ)
 amazon: заменён -> 217.60.37.56:443 sni=fr-1.lunoa.ru (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: ЛИЧНЫЙ (один сервер на все роли))
 URL подписки для Happ: https://raw.githubusercontent.com/zenkinartyom11-sys/dns/main/game_config.json
 Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3plbmtpbmFydHlvbTExLXN5cy9kbnMvbWFpbi9nYW1lX2NvbmZpZy5qc29u
-Время: 20 сек
+Время: 15 сек
