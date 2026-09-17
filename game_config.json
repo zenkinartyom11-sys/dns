@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.8",
-            "port": 23576,
+            "address": "217.60.37.56",
+            "port": 443,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "8f67e374-53d9-43bb-85c9-a459a959cd1b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "chrome",
-          "shortId": "01"
+          "serverName": "fr-1.lunoa.ru",
+          "publicKey": "l8vhMtOhGEsduzrsXfFg2tq3eiKVBHRQLIm0VtbUJDs",
+          "fingerprint": "firefox",
+          "shortId": "277201d753225a01"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.202",
+            "address": "217.60.37.56",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "8f67e374-53d9-43bb-85c9-a459a959cd1b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
-          "shortId": "c39cc7310a"
+          "serverName": "fr-1.lunoa.ru",
+          "publicKey": "l8vhMtOhGEsduzrsXfFg2tq3eiKVBHRQLIm0VtbUJDs",
+          "fingerprint": "firefox",
+          "shortId": "277201d753225a01"
         }
       }
     },
