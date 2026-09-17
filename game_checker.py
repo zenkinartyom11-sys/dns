@@ -251,14 +251,15 @@ def check_outbound(o, local_port):
         try: os.remove(cfg_path)
         except Exception: pass
 
-def write_link(cfg, repo):
+def write_link(cfg):
     """game_link.txt = РОВНО ОДНА строка — готовый URL подписки для Happ (поле «Url подписки»).
        happ://add/<b64> deeplink (Android: открыть тапом) кладём в конец game_report.txt.
        ВАЖНО: happ://routing/... не подходят — их схема не умеет порты/udp-сплит/два outbound.
        Полный JSON в Happ = подписка, передаётся ядру 1:1 (офиц. документация Happ)."""
-    raw = f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}"
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    raw = f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}" if repo else ""
     with open(LINK_FILE, "w", encoding="utf-8") as f:
-        f.write(raw + "\n")
+        f.write(raw + "\n" if raw else "")
 
 # ================== ОСНОВНОЙ ЦИКЛ ==================
 def load_outbounds(cfg):
@@ -397,7 +398,7 @@ def main():
     print(f"\n[+] {CONFIG_FILE} обновлён.")
 
     repo = os.environ.get("GITHUB_REPOSITORY", "")
-    write_link(cfg, repo)
+    write_link(cfg)
     if repo:
         report.append(f"URL подписки для Happ: https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}")
         report.append(f"Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/" + base64.urlsafe_b64encode((f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}").encode()).decode())
