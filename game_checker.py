@@ -26,6 +26,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # ================== НАСТРОЙКИ ==================
 CONFIG_FILE     = "game_config.json"
+PERSONAL_FILE   = "my_servers.txt"   # личные серверы (высший приоритет), формат: vless:// по одному в строке
 REPORT_FILE     = "game_report.txt"
 LINK_FILE       = "game_link.txt"
 
@@ -353,7 +354,17 @@ def main():
     black_by_type = pools_by_type(black_pool)
     white_by_type = pools_by_type(white_pool)
 
-    used_hosts = set()   # proxy и amazon не должны получить один и тот же сервер
+    # --- 3b. Личный пул — ВЫСШИЙ приоритет (серверы, которые дал пользователь) ---
+    personal_pool = []
+    if os.path.exists(PERSONAL_FILE):
+        with open(PERSONAL_FILE, encoding="utf-8") as f:
+            personal_pool = parse_candidates([f.read()])
+        print(f"[+] Личный пул ({PERSONAL_FILE}): {len(personal_pool)} кандидатов")
+    else:
+        print(f"[*] {PERSONAL_FILE} не найден — работаю на публичных пулах")
+    personal_by_type = pools_by_type(personal_pool)
+
+    used_hosts = set()   # слоты не должны случайно получить один публичный сервер (личный может дублироваться)
     for o in outbounds:
         tag = o.get("tag", "?")
         cur = o["settings"]["vnext"][0]
@@ -363,36 +374,42 @@ def main():
                    (cur["users"][0].get("flow") or "").lower())
         if tag not in dead_tags:
             continue
-        pool = [c for c in black_by_type.get(sig_old, []) if c["host"] != cur["address"] and c["host"] not in used_hosts]
-        src_name = "чёрный"
-        if not pool:
-            pool = [c for c in white_by_type.get(sig_old, []) if c["host"] != cur["address"] and c["host"] not in used_hosts]
-            src_name = "белый (аварийный запас)"
-        random.shuffle(pool)
-        if not pool:
-            print(f"[!] {tag}: нет кандидатов типа {sig_old} — оставляю как есть (тип менять нельзя).")
-            report.append(f"{tag}: НЕ заменён — нет живых кандидатов типа {sig_old}")
-            continue
-        print(f"\n[*] {tag}: ищу замену типа {sig_old} (источник: {src_name}, пул: {len(pool)}, проверю до {MAX_CANDIDATES})...")
+        # Источники по приоритету: ЛИЧНЫЙ -> ЛИЧНЫЙ повторно (если личных меньше, чем ролей)
+        #                          -> чёрный -> белый (аварийный запас)
+        personal_all = personal_by_type.get(sig_old, [])
+        chain = []
+        fresh_personal = [c for c in personal_all if c["host"] not in used_hosts]
+        if fresh_personal:
+            chain.append((fresh_personal, "ЛИЧНЫЙ"))
+        if len(personal_all) < len(outbounds):
+            chain.append((list(personal_all), "ЛИЧНЫЙ (один сервер на все роли)"))
+        chain.append(([c for c in black_by_type.get(sig_old, []) if c["host"] != cur["address"] and c["host"] not in used_hosts], "чёрный"))
+        chain.append(([c for c in white_by_type.get(sig_old, []) if c["host"] != cur["address"] and c["host"] not in used_hosts], "белый (аварийный запас)"))
+
         best = None
+        src_name = "нет источников"
         def cand_check(i_c):
             i, c = i_c
             o_try = link_to_outbound(c, "try")
             ok, ping, udp, reason = check_outbound(o_try, 18200 + i)
             return c, ok, ping, udp
-        checked = 0
-        with ThreadPoolExecutor(REAL_WORKERS) as ex:
-            for c, ok, ping, udp in ex.map(cand_check, enumerate(pool[:MAX_CANDIDATES])):
-                checked += 1
-                if ok:
-                    print(f"    [ЖИВ] ping={ping:5.2f}s udp={'да' if udp else 'НЕТ'} | {c['host']}:{c['port']}")
-                    score = (1 if udp else 0, -ping)   # UDP важнее, потом пинг
-                    if best is None or score > best[0]:
-                        best = (score, c)
-                if checked >= MAX_CANDIDATES and best:
-                    break
+        for pool, src_name in chain:
+            if not pool:
+                continue
+            random.shuffle(pool)
+            print(f"\n[*] {tag}: ищу замену типа {sig_old} (источник: {src_name}, пул: {len(pool)}, проверю до {MAX_CANDIDATES})...")
+            with ThreadPoolExecutor(REAL_WORKERS) as ex:
+                for c, ok, ping, udp in ex.map(cand_check, enumerate(pool[:MAX_CANDIDATES])):
+                    if ok:
+                        print(f"    [ЖИВ] ping={ping:5.2f}s udp={'да' if udp else 'НЕТ'} | {c['host']}:{c['port']}")
+                        score = (1 if udp else 0, -ping)   # UDP важнее, потом пинг
+                        if best is None or score > best[0]:
+                            best = (score, c)
+            if best:
+                break
+            print(f"[!] {tag}: в источнике «{src_name}» живых не нашлось — пробую следующий.")
         if not best:
-            print(f"[!] {tag}: живых кандидатов типа {sig_old} не нашлось — оставляю как есть.")
+            print(f"[!] {tag}: живых кандидатов типа {sig_old} не нашлось нигде — оставляю как есть.")
             report.append(f"{tag}: НЕ заменён — кандидаты типа {sig_old} все мертвы")
             continue
         new = best[1]
