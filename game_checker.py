@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-GAME CHECKER — «свой DNS»: следит за JSON-конфигом Happ (роутинг для игр).
+GAME CHECKER v1.1 — «свой DNS»: следит за JSON-конфигом Happ (роутинг для игр).
+Версия для ОТДЕЛЬНОГО репозитория (game_config.json в корне репо).
 
 Что делает:
  1. Читает game_config.json (структура НЕ меняется: inbounds/routing/remarks — трогать запрещено).
  2. Вытаскивает из outbounds все vless-серверы (proxy, amazon, ...).
  3. Проверяет каждого: поднимает реальный туннель (xray) → HTTPS → Telegram →
-    замер ПИНГА → UDP-тест (реальный DNS-запрос UDP через SOCKS5-ассоциированный канал).
+    замер ПИНГА → UDP-тест (реальный DNS-запрос UDP через SOCKS5).
     Для игр UDP и пинг важнее скорости.
  4. Мёртвый сервер ЗАМЕНЯЕТСЯ кандидатом из источников ЭтоНеЯ С ТОЧНО ТЕМ ЖЕ ТИПОМ
     подключения: protocol + security + network + flow (напр. vless/reality/tcp/vision).
@@ -15,7 +16,7 @@ GAME CHECKER — «свой DNS»: следит за JSON-конфигом Happ 
  5. Пишет: game_config.json (обновлённый), game_report.txt (что заменено),
     game_link.txt (deeplink happ://routing/import/... — импорт в Happ одним тапом).
 
-Запуск: python game_checker.py   (xray рядом или в PATH)
+Запуск: python game_checker.py   (xray рядом или в PATH; pysocks обязателен)
 Env:    MAX_CANDIDATES (сколько кандидатов на тип проверять, по умолч. 60)
 """
 
@@ -119,8 +120,6 @@ def type_signature(info):
 # ================== XRAY-ПРОВЕРКА ==================
 def outbound_to_config(o, local_port):
     """Конфиг xray из JSON-outbound (тот же движок, что и в клиенте)."""
-    v = o["settings"]["vnext"][0]
-    ss = o.get("streamSettings", {})
     return {
         "log": {"loglevel": "none"},
         "inbounds": [{"listen": "127.0.0.1", "port": local_port, "protocol": "socks",
@@ -218,7 +217,7 @@ def check_outbound(o, local_port):
         if not wait_for_port(local_port, proc, XRAY_START_WAIT):
             return False, None, False, "xray не поднял порт (битый сервер)"
         try:
-            import socks  # noqa: F401  (PySocks)
+            import socks  # noqa: F401  (PySocks обязателен для socks5h)
         except ImportError:
             return False, None, False, "нет PySocks (pip install pysocks)"
         px = {"http": f"socks5h://127.0.0.1:{local_port}",
@@ -259,7 +258,7 @@ def load_outbounds(cfg):
 
 def main():
     t0 = time.monotonic()
-    print("[*] GAME CHECKER v1: живой JSON для Happ — замена мёртвых серверов с сохранением типа подключения")
+    print("[*] GAME CHECKER v1.1: живой JSON для Happ — замена мёртвых серверов с сохранением типа подключения")
     if not (os.path.exists(XRAY_PATH) or shutil.which(XRAY_PATH)):
         print("[!] xray не найден — выход.")
         return
@@ -319,7 +318,6 @@ def main():
     print(f"[+] Кандидатов всего: {len(candidates)}")
 
     # --- 4. Для каждого мёртвого — замена ТОЧНО того же типа ---
-    # индекс: тип -> [кандидаты]
     by_type = {}
     for i in candidates:
         by_type.setdefault(type_signature(i), []).append(i)
@@ -339,7 +337,7 @@ def main():
             print(f"[!] {tag}: нет кандидатов типа {sig_old} — оставляю как есть (тип менять нельзя).")
             report.append(f"{tag}: НЕ заменён — нет живых кандидатов типа {sig_old}")
             continue
-        print(f"\n[*] {tag}: ищу замену типа {sig_old} (кандидатов: {len(pool[:MAX_CANDIDATES])})...")
+        print(f"\n[*] {tag}: ищу замену типа {sig_old} (пул: {len(pool)}, проверю до {MAX_CANDIDATES})...")
         best = None
         def cand_check(i_c):
             i, c = i_c
@@ -352,8 +350,7 @@ def main():
                 checked += 1
                 if ok:
                     print(f"    [ЖИВ] ping={ping:5.2f}s udp={'да' if udp else 'НЕТ'} | {c['host']}:{c['port']}")
-                    # приоритет: UDP работает, потом минимальный пинг
-                    score = (1 if udp else 0, -ping)
+                    score = (1 if udp else 0, -ping)   # UDP важнее, потом пинг
                     if best is None or score > best[0]:
                         best = (score, c)
                 if checked >= MAX_CANDIDATES and best:
@@ -363,11 +360,9 @@ def main():
             report.append(f"{tag}: НЕ заменён — кандидаты типа {sig_old} все мертвы")
             continue
         new = best[1]
-        # --- подмена с сохранением структуры ---
         cur["address"], cur["port"] = new["host"], new["port"]
         cur["users"][0]["id"] = new["uuid"]
         cur["users"][0]["flow"] = new.get("flow") or cur["users"][0].get("flow", "")
-        # streamSettings: security/network не меняются (тип совпадает), подменяем ключи
         if new["security"] == "reality" and "realitySettings" in ss:
             rs = ss["realitySettings"]
             rs["serverName"] = new["sni"] or new["host"]
