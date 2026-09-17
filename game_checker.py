@@ -36,9 +36,10 @@ FALLBACK_WHITE = [
     "https://etoneya.su/whitelist",
     "https://xn--e1apcp8cq.xn--p1ai/whitelist",
 ]
-FALLBACK_BLACK = [
+FALLBACK_BLACK = [   # ОСНОВНОЙ пул (заблокированные зарубежные, ~2000+ серверов)
     "https://blacklist.etoneya.baby",
     "https://etoneya.best/other",
+    "https://etoneya.su/other",
 ]
 
 CHECK_TIMEOUT   = 4
@@ -316,31 +317,41 @@ def main():
             f.write("\n".join(report) + "\n")
         return
 
-    # --- 3. Качаем источники кандидатов ---
-    print("\n[*] Качаю источники ЭтоНеЯ...")
-    mirrors = FALLBACK_WHITE + FALLBACK_BLACK
+    # --- 3. Качаем источники: ЧЁРНЫЙ список — основной пул, белый — аварийный запас ---
+    def parse_candidates(texts):
+        raw = "\n".join(texts)
+        out, seen = [], set()
+        for line in set(l.strip() for l in raw.splitlines() if l.strip().startswith("vless://")):
+            i = extract_link_info(line)
+            if not i or not i["host"] or not i["port"] or not UUID_RE.fullmatch(i["uuid"] or ""):
+                continue
+            if i["security"] == "reality" and len(i.get("pbk") or "") < 40:
+                continue
+            key = f"{i['uuid']}|{i['host']}|{i['port']}"
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(i)
+        return out
+
+    print("\n[*] Качаю ЧЁРНЫЙ список ЭтоНеЯ (основной пул)...")
     with ThreadPoolExecutor(10) as ex:
-        texts = [t for t in ex.map(fetch_one, mirrors) if t]
-    raw = "\n".join(texts)
-    candidates = []
-    seen = set()
-    for line in set(l.strip() for l in raw.splitlines() if l.strip().startswith("vless://")):
-        i = extract_link_info(line)
-        if not i or not i["host"] or not i["port"] or not UUID_RE.fullmatch(i["uuid"] or ""):
-            continue
-        if i["security"] == "reality" and len(i.get("pbk") or "") < 40:
-            continue
-        key = f"{i['uuid']}|{i['host']}|{i['port']}"
-        if key in seen:
-            continue
-        seen.add(key)
-        candidates.append(i)
-    print(f"[+] Кандидатов всего: {len(candidates)}")
+        black_texts = [t for t in ex.map(fetch_one, FALLBACK_BLACK) if t]
+    black_pool = parse_candidates(black_texts)
+    print(f"[+] Чёрный список: {len(black_pool)} кандидатов")
+    with ThreadPoolExecutor(10) as ex:
+        white_texts = [t for t in ex.map(fetch_one, FALLBACK_WHITE) if t]
+    white_pool = parse_candidates(white_texts)
+    print(f"[+] Белый список (запас): {len(white_pool)} кандидатов")
 
     # --- 4. Для каждого мёртвого — замена ТОЧНО того же типа ---
-    by_type = {}
-    for i in candidates:
-        by_type.setdefault(type_signature(i), []).append(i)
+    def pools_by_type(pool):
+        d = {}
+        for i in pool:
+            d.setdefault(type_signature(i), []).append(i)
+        return d
+    black_by_type = pools_by_type(black_pool)
+    white_by_type = pools_by_type(white_pool)
 
     used_hosts = set()   # proxy и amazon не должны получить один и тот же сервер
     for o in outbounds:
@@ -352,14 +363,17 @@ def main():
                    (cur["users"][0].get("flow") or "").lower())
         if tag not in dead_tags:
             continue
-        pool = by_type.get(sig_old, [])
-        pool = [c for c in pool if c["host"] != cur["address"] and c["host"] not in used_hosts]
+        pool = [c for c in black_by_type.get(sig_old, []) if c["host"] != cur["address"] and c["host"] not in used_hosts]
+        src_name = "чёрный"
+        if not pool:
+            pool = [c for c in white_by_type.get(sig_old, []) if c["host"] != cur["address"] and c["host"] not in used_hosts]
+            src_name = "белый (аварийный запас)"
         random.shuffle(pool)
         if not pool:
             print(f"[!] {tag}: нет кандидатов типа {sig_old} — оставляю как есть (тип менять нельзя).")
             report.append(f"{tag}: НЕ заменён — нет живых кандидатов типа {sig_old}")
             continue
-        print(f"\n[*] {tag}: ищу замену типа {sig_old} (пул: {len(pool)}, проверю до {MAX_CANDIDATES})...")
+        print(f"\n[*] {tag}: ищу замену типа {sig_old} (источник: {src_name}, пул: {len(pool)}, проверю до {MAX_CANDIDATES})...")
         best = None
         def cand_check(i_c):
             i, c = i_c
@@ -395,8 +409,8 @@ def main():
         elif new["security"] == "tls" and "tlsSettings" in ss:
             ts = ss["tlsSettings"]
             ts["serverName"] = new["sni"] or new["host"]
-        print(f"[+] {tag}: ЗАМЕНЁН -> {new['host']}:{new['port']} (sni={new['sni']})")
-        report.append(f"{tag}: заменён -> {new['host']}:{new['port']} sni={new['sni']} (тип {sig_old} сохранён)")
+        print(f"[+] {tag}: ЗАМЕНЁН -> {new['host']}:{new['port']} (sni={new['sni']}, источник: {src_name})")
+        report.append(f"{tag}: заменён -> {new['host']}:{new['port']} sni={new['sni']} (тип {sig_old} сохранён, источник: {src_name})")
 
     # --- 5. Пишем файлы ---
     with open(CONFIG_FILE, "w", encoding="utf-8") as f:
