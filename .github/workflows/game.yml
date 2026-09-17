@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: '23 */3 * * *'   # каждые 3 часа (сдвиг с парсером подписок в wpn)
   workflow_dispatch:
+    inputs:
+      force_replace:
+        description: 'Принудительно заменить серверы (если на телефоне не работает, а чекер пишет "жив")'
+        type: boolean
+        default: false
 
 concurrency:
   group: game-config
@@ -38,6 +43,7 @@ jobs:
         run: python game_checker.py
         env:
           XRAY_PATH: /tmp/xraybin/xray
+          FORCE_REPLACE: ${{ inputs.force_replace == true && '1' || '0' }}
 
       - name: 5. Отчёт прогона в лог
         run: |
