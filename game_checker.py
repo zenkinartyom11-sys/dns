@@ -251,6 +251,12 @@ def check_outbound(o, local_port):
         try: os.remove(cfg_path)
         except Exception: pass
 
+def write_link(cfg):
+    """Deeplink для импорта в Happ — пишется ВСЕГДА (живой прогон или замена)."""
+    b64 = base64.urlsafe_b64encode(json.dumps(cfg, ensure_ascii=False).encode()).decode()
+    with open(LINK_FILE, "w", encoding="utf-8") as f:
+        f.write("happ://routing/import/" + b64 + "\n")
+
 # ================== ОСНОВНОЙ ЦИКЛ ==================
 def load_outbounds(cfg):
     return [o for o in cfg.get("outbounds", [])
@@ -292,8 +298,15 @@ def main():
     # --- 2. Если всё живо — выходим, файл не трогаем ---
     if not dead_tags:
         print("\n[+] Все серверы живы — конфиг не трогаю.")
+        for o in outbounds:
+            tag = o.get("tag", "?")
+            _, ping, udp = results[tag]
+            v = o["settings"]["vnext"][0]
+            report.append(f"{tag}: ЖИВ {v['address']}:{v['port']} ping={ping:.2f}s udp={'да' if udp else 'НЕТ'}")
+        report.append("Все серверы живы — конфиг не менялся.")
+        write_link(cfg)
         with open(REPORT_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(report) + "\nВсе серверы живы.\n")
+            f.write("\n".join(report) + "\n")
         return
 
     # --- 3. Качаем источники кандидатов ---
@@ -380,9 +393,7 @@ def main():
         json.dump(cfg, f, ensure_ascii=False, indent=2)
     print(f"\n[+] {CONFIG_FILE} обновлён.")
 
-    b64 = base64.urlsafe_b64encode(json.dumps(cfg, ensure_ascii=False).encode()).decode()
-    with open(LINK_FILE, "w", encoding="utf-8") as f:
-        f.write("happ://routing/import/" + b64 + "\n")
+    write_link(cfg)
     report.append(f"Время: {time.monotonic()-t0:.0f} сек")
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(report) + "\n")
