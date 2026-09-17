@@ -295,16 +295,16 @@ def main():
             else:
                 print(f"    [МЁРТВ] {tag:10s} {reason}")
 
-    dead_tags = [o.get("tag", f"out{i}") for i, o in enumerate(outbounds) if not results.get(o.get("tag", f"out{i}"), (False,))[0]]
+    # РЕЖИМ ПО ТРЕБОВАНИЮ ПОЛЬЗОВАТЕЛЯ: серверы заменяются СВЕЖИМИ при КАЖДОМ прогоне.
+    # Причина: живой на GitHub ≠ доступный с телефона (МТС режет пул), раннер это не видит.
+    dead_tags = [o.get("tag", f"out{i}") for i, o in enumerate(outbounds)] if outbounds else []
     report = [f"# GAME CHECK {time.strftime('%Y-%m-%d %H:%M')} UTC",
-              f"Серверов в конфиге: {len(outbounds)}; мёртвых: {len(dead_tags)}"]
-    if os.environ.get("FORCE_REPLACE", "") == "1" and outbounds:
-        dead_tags = [o.get("tag", f"out{i}") for i, o in enumerate(outbounds)]
-        report.append("FORCE_REPLACE=1: принудительная замена ВСЕХ серверов (живой на GitHub ≠ доступный с телефона/МТС)")
+              f"Серверов в конфиге: {len(outbounds)}; мёртвых (по проверке с GitHub): {len([t for t in dead_tags if not results.get(t, (False,))[0]])}",
+              "Режим: замена ВСЕХ серверов свежими при каждом прогоне"]
 
     # --- 2. Если всё живо — выходим, файл не трогаем ---
     if not dead_tags:
-        print("\n[+] Все серверы живы — конфиг не трогаю.")
+        print("\n[+] В конфиге нет vless-серверов — заменять нечего.")
         for o in outbounds:
             tag = o.get("tag", "?")
             _, ping, udp = results[tag]
