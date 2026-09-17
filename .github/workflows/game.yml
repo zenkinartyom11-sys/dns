@@ -24,18 +24,20 @@ jobs:
       - name: 2. Python + зависимости
         run: pip install requests pysocks
 
-      - name: 3. Устанавливаем xray
+      - name: 3. Устанавливаем xray (во /tmp — чтобы НЕ коммитить бинарники в репо)
         run: |
           for i in 1 2 3; do
-            curl -sfL https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -o xray.zip && break
+            curl -sfL https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip -o /tmp/xray.zip && break
             echo "retry $i..."; sleep 3
           done
-          unzip -o xray.zip xray
-          chmod +x xray
-          ./xray version
+          unzip -o /tmp/xray.zip -d /tmp/xraybin xray
+          chmod +x /tmp/xraybin/xray
+          /tmp/xraybin/xray version
 
       - name: 4. Проверка и замена серверов в game_config.json
         run: python game_checker.py
+        env:
+          XRAY_PATH: /tmp/xraybin/xray
 
       - name: 5. Отчёт прогона в лог
         run: |
