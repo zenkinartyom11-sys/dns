@@ -342,6 +342,7 @@ def main():
     for i in candidates:
         by_type.setdefault(type_signature(i), []).append(i)
 
+    used_hosts = set()   # proxy и amazon не должны получить один и тот же сервер
     for o in outbounds:
         tag = o.get("tag", "?")
         cur = o["settings"]["vnext"][0]
@@ -352,7 +353,7 @@ def main():
         if tag not in dead_tags:
             continue
         pool = by_type.get(sig_old, [])
-        pool = [c for c in pool if c["host"] != cur["address"]]   # не предлагать текущий сервер
+        pool = [c for c in pool if c["host"] != cur["address"] and c["host"] not in used_hosts]
         random.shuffle(pool)
         if not pool:
             print(f"[!] {tag}: нет кандидатов типа {sig_old} — оставляю как есть (тип менять нельзя).")
@@ -381,6 +382,7 @@ def main():
             report.append(f"{tag}: НЕ заменён — кандидаты типа {sig_old} все мертвы")
             continue
         new = best[1]
+        used_hosts.add(new["host"])
         cur["address"], cur["port"] = new["host"], new["port"]
         cur["users"][0]["id"] = new["uuid"]
         cur["users"][0]["flow"] = new.get("flow") or cur["users"][0].get("flow", "")
