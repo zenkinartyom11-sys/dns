@@ -99,6 +99,36 @@
       "settings": {
         "vnext": [
           {
+            "address": "45.149.172.74",
+            "port": 443,
+            "users": [
+              {
+                "id": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.logitech.com",
+          "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
+          "fingerprint": "firefox",
+          "shortId": "626d38f0ea642e3b"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "217.60.37.56",
             "port": 443,
             "users": [
@@ -120,36 +150,6 @@
           "publicKey": "l8vhMtOhGEsduzrsXfFg2tq3eiKVBHRQLIm0VtbUJDs",
           "fingerprint": "firefox",
           "shortId": "277201d753225a01"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.58.181.88",
-            "port": 8443,
-            "users": [
-              {
-                "id": "4a239f83-479c-4790-a9c7-fe7ddd483a4c",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
-          "fingerprint": "firefox",
-          "shortId": ""
         }
       }
     },
