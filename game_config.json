@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.149.172.74",
+            "address": "217.60.37.56",
             "port": 443,
             "users": [
               {
-                "id": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
+                "id": "8f67e374-53d9-43bb-85c9-a459a959cd1b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.logitech.com",
-          "publicKey": "U3L2Aed8YfC7Aw2sRv_DJDnbOXVP-XUiyxQe3_h7LT8",
+          "serverName": "fr-1.lunoa.ru",
+          "publicKey": "l8vhMtOhGEsduzrsXfFg2tq3eiKVBHRQLIm0VtbUJDs",
           "fingerprint": "firefox",
-          "shortId": "626d38f0ea642e3b"
+          "shortId": "277201d753225a01"
         }
       }
     },
