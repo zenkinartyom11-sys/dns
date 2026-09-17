@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.32.177.7",
-            "port": 443,
+            "address": "31.58.50.200",
+            "port": 8443,
             "users": [
               {
-                "id": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
+                "id": "731079ad-741a-4ffd-87be-4b829fe7e843",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "team.betust.net",
-          "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
+          "serverName": "tradingview.com",
+          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
           "fingerprint": "firefox",
-          "shortId": "cf41f778"
+          "shortId": ""
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "84.32.177.7",
+            "address": "158.69.112.254",
             "port": 443,
             "users": [
               {
-                "id": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
+                "id": "661f395d-b153-4199-a04b-693f5fe7f261",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "team.betust.net",
-          "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
-          "fingerprint": "firefox",
-          "shortId": "cf41f778"
+          "serverName": "www.speedtest.net",
+          "publicKey": "wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y",
+          "fingerprint": "chrome",
+          "shortId": "3d3c1e645f763ee3"
         }
       }
     },
