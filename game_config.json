@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "217.60.37.56",
+            "address": "84.32.177.7",
             "port": 443,
             "users": [
               {
-                "id": "8f67e374-53d9-43bb-85c9-a459a959cd1b",
+                "id": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fr-1.lunoa.ru",
-          "publicKey": "l8vhMtOhGEsduzrsXfFg2tq3eiKVBHRQLIm0VtbUJDs",
+          "serverName": "team.betust.net",
+          "publicKey": "Q6vABOUn6Uxtp0uDsfDG-SRJFLBh_oOofD9reec4iSg",
           "fingerprint": "firefox",
-          "shortId": "277201d753225a01"
+          "shortId": "cf41f778"
         }
       }
     },
