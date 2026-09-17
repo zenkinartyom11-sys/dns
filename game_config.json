@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "217.60.37.56",
-            "port": 443,
+            "address": "31.58.181.88",
+            "port": 8443,
             "users": [
               {
-                "id": "8f67e374-53d9-43bb-85c9-a459a959cd1b",
+                "id": "4a239f83-479c-4790-a9c7-fe7ddd483a4c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fr-1.lunoa.ru",
-          "publicKey": "l8vhMtOhGEsduzrsXfFg2tq3eiKVBHRQLIm0VtbUJDs",
+          "serverName": "tradingview.com",
+          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
           "fingerprint": "firefox",
-          "shortId": "277201d753225a01"
+          "shortId": ""
         }
       }
     },
