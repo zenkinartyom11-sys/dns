@@ -252,10 +252,19 @@ def check_outbound(o, local_port):
         except Exception: pass
 
 def write_link(cfg):
-    """Deeplink для импорта в Happ — пишется ВСЕГДА (живой прогон или замена)."""
-    b64 = base64.urlsafe_b64encode(json.dumps(cfg, ensure_ascii=False).encode()).decode()
+    """Ссылки для телефона (2 строки):
+       1) happ://add/<b64> — добавляет game_config.json в Happ как подписку одним тапом
+       2) прямая raw-ссылка — если deeplink не сработал, вставить в Happ вручную (+ → подписка)
+       ВАЖНО: happ://routing/... deeplink'и не подходят — их схема (ProxySites/DirectSites)
+       не умеет порты (9339), tcp/udp-сплит и два outbound'а. Полный JSON = подписка 1:1."""
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    lines = []
+    if repo:
+        raw = f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}"
+        lines.append("happ://add/" + base64.urlsafe_b64encode(raw.encode()).decode())
+        lines.append(raw)
     with open(LINK_FILE, "w", encoding="utf-8") as f:
-        f.write("happ://routing/import/" + b64 + "\n")
+        f.write("\n".join(lines) + ("\n" if lines else ""))
 
 # ================== ОСНОВНОЙ ЦИКЛ ==================
 def load_outbounds(cfg):
