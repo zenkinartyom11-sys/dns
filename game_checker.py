@@ -251,20 +251,14 @@ def check_outbound(o, local_port):
         try: os.remove(cfg_path)
         except Exception: pass
 
-def write_link(cfg):
-    """Ссылки для телефона (2 строки):
-       1) happ://add/<b64> — добавляет game_config.json в Happ как подписку одним тапом
-       2) прямая raw-ссылка — если deeplink не сработал, вставить в Happ вручную (+ → подписка)
-       ВАЖНО: happ://routing/... deeplink'и не подходят — их схема (ProxySites/DirectSites)
-       не умеет порты (9339), tcp/udp-сплит и два outbound'а. Полный JSON = подписка 1:1."""
-    repo = os.environ.get("GITHUB_REPOSITORY", "")
-    lines = []
-    if repo:
-        raw = f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}"
-        lines.append("happ://add/" + base64.urlsafe_b64encode(raw.encode()).decode())
-        lines.append(raw)
+def write_link(cfg, repo):
+    """game_link.txt = РОВНО ОДНА строка — готовый URL подписки для Happ (поле «Url подписки»).
+       happ://add/<b64> deeplink (Android: открыть тапом) кладём в конец game_report.txt.
+       ВАЖНО: happ://routing/... не подходят — их схема не умеет порты/udp-сплит/два outbound.
+       Полный JSON в Happ = подписка, передаётся ядру 1:1 (офиц. документация Happ)."""
+    raw = f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}"
     with open(LINK_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines) + ("\n" if lines else ""))
+        f.write(raw + "\n")
 
 # ================== ОСНОВНОЙ ЦИКЛ ==================
 def load_outbounds(cfg):
@@ -402,7 +396,11 @@ def main():
         json.dump(cfg, f, ensure_ascii=False, indent=2)
     print(f"\n[+] {CONFIG_FILE} обновлён.")
 
-    write_link(cfg)
+    repo = os.environ.get("GITHUB_REPOSITORY", "")
+    write_link(cfg, repo)
+    if repo:
+        report.append(f"URL подписки для Happ: https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}")
+        report.append(f"Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/" + base64.urlsafe_b64encode((f"https://raw.githubusercontent.com/{repo}/main/{CONFIG_FILE}").encode()).decode())
     report.append(f"Время: {time.monotonic()-t0:.0f} сек")
     with open(REPORT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(report) + "\n")
