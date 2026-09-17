@@ -9,6 +9,15 @@
   "routing": {
     "rules": [
       {
+        "ip": [
+          "1.1.1.1",
+          "1.0.0.1"
+        ],
+        "port": "53",
+        "network": "tcp,udp",
+        "outboundTag": "direct"
+      },
+      {
         "domain": [
           "domain:supercell.com",
           "domain:supercell.io",
