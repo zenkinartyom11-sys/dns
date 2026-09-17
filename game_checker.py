@@ -319,11 +319,19 @@ def main():
         return
 
     # --- 3. Качаем источники: ЧЁРНЫЙ список — основной пул, белый — аварийный запас ---
+    def clean_link(line):
+        """Чистит артефакты копипасты: &amp; -> &, markdown [x](url) -> x, висячие пробелы."""
+        line = line.replace("&amp;", "&").replace("&amp", "&")
+        line = re.sub(r"\[([^\[\]]+)\]\(https?://[^)]+\)", r"\1", line)
+        return line.strip()
+
     def parse_candidates(texts):
-        raw = "\n".join(texts)
+        raw = clean_link("\n".join(texts))
         out, seen = [], set()
         for line in set(l.strip() for l in raw.splitlines() if l.strip().startswith("vless://")):
             i = extract_link_info(line)
+            if i and i["security"] == "none" and "pbk=" in line:
+                i["security"] = "reality"   # страховка: pbk есть, а security потерялся
             if not i or not i["host"] or not i["port"] or not UUID_RE.fullmatch(i["uuid"] or ""):
                 continue
             if i["security"] == "reality" and len(i.get("pbk") or "") < 40:
