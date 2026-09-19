@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.211.98.43",
-            "port": 443,
+            "address": "31.58.181.88",
+            "port": 8443,
             "users": [
               {
-                "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+                "id": "2eea435c-8c8f-45e3-8907-956a0c6b0182",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+          "serverName": "tradingview.com",
+          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
           "fingerprint": "firefox",
-          "shortId": "9c56fddf237e8eaf"
+          "shortId": ""
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.235.38.85",
-            "port": 42942,
+            "address": "89.40.70.124",
+            "port": 443,
             "users": [
               {
-                "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+                "id": "d81b3a26-1111-497a-a243-a34d80b1b1b9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.tesla.com",
-          "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-          "fingerprint": "chrome",
-          "shortId": "a56d7d8da977f860"
+          "serverName": "www.sony.co.uk",
+          "publicKey": "2UHMR3ko8nBUTbZpQrvWP9ylSmcAj5YXSNG_o-N8EW8",
+          "fingerprint": "firefox",
+          "shortId": "5b33d3e71a14f4"
         }
       }
     },
