@@ -99,37 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "130.107.73.148",
-            "port": 41373,
-            "users": [
-              {
-                "id": "a71c8954-66a8-4321-bedb-2336230d81ce",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "google.com",
-          "publicKey": "m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU",
-          "fingerprint": "chrome",
-          "shortId": "0e"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "169.40.42.16",
+            "address": "169.40.42.95",
             "port": 443,
             "users": [
               {
@@ -148,8 +118,38 @@
         "realitySettings": {
           "serverName": "yahoo.com",
           "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
+          "fingerprint": "firefox",
           "shortId": "c39cc7310a"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.47.254.251",
+            "port": 443,
+            "users": [
+              {
+                "id": "878fb7f7-fc65-465e-a352-17c7216c6f3d",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "gateway.icloud.com",
+          "publicKey": "6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q",
+          "fingerprint": "chrome",
+          "shortId": "6c059ecfddf9b179"
         }
       }
     },
