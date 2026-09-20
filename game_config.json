@@ -99,41 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.212",
-            "port": 443,
-            "users": [
-              {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
-          "shortId": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.58.50.200",
+            "address": "31.58.181.88",
             "port": 8443,
             "users": [
               {
-                "id": "06e00e3d-f71f-4621-99a2-779793daf449",
+                "id": "d5f1aa27-43d0-4f2e-bca2-140f3ec2aa62",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -147,9 +117,39 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "tradingview.com",
-          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
           "fingerprint": "firefox",
           "shortId": ""
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "195.211.98.43",
+            "port": 443,
+            "users": [
+              {
+                "id": "1b4b11d5-4c2d-4533-9a55-636757cdee94",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.cloudflare.com",
+          "publicKey": "xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA",
+          "fingerprint": "firefox",
+          "shortId": "9c56fddf237e8eaf"
         }
       }
     },
