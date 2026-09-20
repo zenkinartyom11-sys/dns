@@ -99,41 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.200.42.129",
-            "port": 52977,
-            "users": [
-              {
-                "id": "2f6f1856-5466-4078-b1f0-d3f977211ada",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "apple.com",
-          "publicKey": "X-DQShHbh23E3SeJjZzC-WStkChJU0lxgktpGalzjw4",
-          "fingerprint": "chrome",
-          "shortId": "0fb9c965"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.58.50.200",
+            "address": "31.58.181.88",
             "port": 8443,
             "users": [
               {
-                "id": "18841820-cd3a-4bc5-9ac3-fec72438b872",
+                "id": "41a463f0-8c2d-4090-8456-e3278cab8fa2",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -147,9 +117,39 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "tradingview.com",
-          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
           "fingerprint": "firefox",
           "shortId": ""
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.57.18.55",
+            "port": 443,
+            "users": [
+              {
+                "id": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "srv-waw.kintecolas.com",
+          "publicKey": "qPgl3LmKAKs5K-KzGNRJyr5KTO0KoRNN5m2PTCMscXU",
+          "fingerprint": "firefox",
+          "shortId": "22f534c530d37170"
         }
       }
     },
