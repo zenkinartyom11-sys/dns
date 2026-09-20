@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.181.88",
-            "port": 8443,
+            "address": "195.123.240.65",
+            "port": 443,
             "users": [
               {
-                "id": "41a463f0-8c2d-4090-8456-e3278cab8fa2",
+                "id": "ce18d0eb-5c71-41f9-96e5-1632e22456e4",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
+          "serverName": "www.cloudflare.com",
+          "publicKey": "StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "19296c9f1bf9c7b1"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.57.18.55",
+            "address": "138.124.60.146",
             "port": 443,
             "users": [
               {
-                "id": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
+                "id": "bbfd1f68-ec64-452f-8404-9e2bcf1df951",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "srv-waw.kintecolas.com",
-          "publicKey": "qPgl3LmKAKs5K-KzGNRJyr5KTO0KoRNN5m2PTCMscXU",
+          "serverName": "usa.oblaco.bet",
+          "publicKey": "mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0",
           "fingerprint": "firefox",
-          "shortId": "22f534c530d37170"
+          "shortId": ""
         }
       }
     },
