@@ -99,11 +99,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.181.88",
+            "address": "198.200.42.129",
+            "port": 52977,
+            "users": [
+              {
+                "id": "2f6f1856-5466-4078-b1f0-d3f977211ada",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "apple.com",
+          "publicKey": "X-DQShHbh23E3SeJjZzC-WStkChJU0lxgktpGalzjw4",
+          "fingerprint": "chrome",
+          "shortId": "0fb9c965"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.58.50.200",
             "port": 8443,
             "users": [
               {
-                "id": "b5f27d9a-4d7a-4fa3-a45a-09bfd3e8a248",
+                "id": "18841820-cd3a-4bc5-9ac3-fec72438b872",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -117,39 +147,9 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "tradingview.com",
-          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
+          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
           "fingerprint": "firefox",
           "shortId": ""
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "51.158.206.86",
-            "port": 23576,
-            "users": [
-              {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "chrome",
-          "shortId": "01"
         }
       }
     },
