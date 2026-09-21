@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.220.73.204",
-            "port": 18662,
+            "address": "169.40.42.184",
+            "port": 443,
             "users": [
               {
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "fingerprint": "chrome",
-          "shortId": "48050fab"
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "ios",
+          "shortId": "c39cc7310a"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.77.199.182",
-            "port": 443,
+            "address": "195.123.212.60",
+            "port": 15392,
             "users": [
               {
-                "id": "c09cfd91-b234-4998-9bed-a0211b7f5c3c",
+                "id": "de78ba38-5600-47d1-b93b-b45bdf280ac0",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fi2.yservice.help",
-          "publicKey": "-qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04",
+          "serverName": "intel.com",
+          "publicKey": "TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg",
           "fingerprint": "firefox",
-          "shortId": "abcd1234"
+          "shortId": "82"
         }
       }
     },
