@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.95.96.236",
+            "address": "169.40.42.225",
             "port": 443,
             "users": [
               {
-                "id": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "gesmankos.sadiepinki.com",
-          "publicKey": "rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs",
-          "fingerprint": "firefox",
-          "shortId": "4fa44664f6a566d3"
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "ios",
+          "shortId": "c39cc7310a"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.9.135.156",
-            "port": 51847,
+            "address": "169.40.42.75",
+            "port": 443,
             "users": [
               {
-                "id": "391a01e9-b664-407b-9158-610fab3f5920",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.tesla.com",
-          "publicKey": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
-          "fingerprint": "firefox",
-          "shortId": "0eec442e7b34d2f2"
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "chrome",
+          "shortId": "c39cc7310a"
         }
       }
     },
