@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "167.17.68.205",
+            "address": "45.95.96.236",
             "port": 443,
             "users": [
               {
-                "id": "4e0f4e59-3613-4f0c-b824-7348413d20e6",
+                "id": "c5694dc5-39fd-4a92-8430-3837baa522a3",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs",
-          "fingerprint": "chrome",
-          "shortId": "250b5976473a"
+          "serverName": "gesmankos.sadiepinki.com",
+          "publicKey": "rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs",
+          "fingerprint": "firefox",
+          "shortId": "4fa44664f6a566d3"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.50.200",
-            "port": 8443,
+            "address": "3.9.135.156",
+            "port": 51847,
             "users": [
               {
-                "id": "c50a60fe-07eb-4950-85ea-ee9c15b32c7d",
+                "id": "391a01e9-b664-407b-9158-610fab3f5920",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "serverName": "www.tesla.com",
+          "publicKey": "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "0eec442e7b34d2f2"
         }
       }
     },
