@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.50.200",
-            "port": 8443,
+            "address": "67.220.73.204",
+            "port": 16016,
             "users": [
               {
-                "id": "4a64b0c2-de7e-4e32-b931-247be6dc4488",
+                "id": "814bd064-544d-4255-a070-5705c03f6da9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "serverName": "www.apple.com",
+          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "48050fab"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.156.154.65",
-            "port": 7443,
+            "address": "169.40.42.35",
+            "port": 443,
             "users": [
               {
-                "id": "cb15d1b0-e48b-4c4c-b98a-fa1103aa3723",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.samsung.com",
-          "publicKey": "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ",
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
           "fingerprint": "chrome",
-          "shortId": "d2061bb1"
+          "shortId": "c39cc7310a"
         }
       }
     },
