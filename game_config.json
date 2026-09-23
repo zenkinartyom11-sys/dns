@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.231",
-            "port": 443,
+            "address": "31.58.50.200",
+            "port": 8443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "7e3f04d4-0f1a-4163-9955-5ee7c757b277",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "ios",
-          "shortId": "c39cc7310a"
+          "serverName": "tradingview.com",
+          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "fingerprint": "firefox",
+          "shortId": ""
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.57.34.139",
+            "address": "5.78.28.48",
             "port": 443,
             "users": [
               {
-                "id": "8d2196c0-2ec7-4867-8d66-d5d19bf8fb23",
+                "id": "b88a54a0-501c-4acf-930b-305354452f4e",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nl2.bbobr.win",
-          "publicKey": "eztZ1H-OkkHao6d4FhX8Q728qN1UIeFcYH2jObRq1gc",
-          "fingerprint": "firefox",
-          "shortId": "fbe9c012125d90d2"
+          "serverName": "www.yahoo.com",
+          "publicKey": "XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE",
+          "fingerprint": "chrome",
+          "shortId": "884dffd8e62a5c48"
         }
       }
     },
