@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.225",
+            "address": "169.40.42.231",
             "port": 443,
             "users": [
               {
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.75",
+            "address": "31.57.34.139",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "8d2196c0-2ec7-4867-8d66-d5d19bf8fb23",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
-          "shortId": "c39cc7310a"
+          "serverName": "nl2.bbobr.win",
+          "publicKey": "eztZ1H-OkkHao6d4FhX8Q728qN1UIeFcYH2jObRq1gc",
+          "fingerprint": "firefox",
+          "shortId": "fbe9c012125d90d2"
         }
       }
     },
