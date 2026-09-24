@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.50.200",
-            "port": 8443,
+            "address": "172.235.43.210",
+            "port": 53957,
             "users": [
               {
-                "id": "a4b34b65-d393-410a-b41f-f255300ea053",
+                "id": "7ab29f89-6eef-4171-b232-fc4f580ad31b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU",
+          "serverName": "www.nvidia.com",
+          "publicKey": "XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "44e82fd7b97b14"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.58.181.88",
-            "port": 8443,
+            "address": "192.3.247.109",
+            "port": 43578,
             "users": [
               {
-                "id": "2202f333-f8d6-4e13-a6c7-0b437e42f5e3",
+                "id": "25a6a9f3-ad9e-45f2-96e1-be21c9d97789",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tradingview.com",
-          "publicKey": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
+          "serverName": "apple.com",
+          "publicKey": "c5vigQXEfwPg0fAF6U68xrunhyXzYYfMAvsRQ6Cn2mA",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "0123456789abcdef"
         }
       }
     },
