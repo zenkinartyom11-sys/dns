@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nl3.freekeysh110.online",
-            "port": 443,
+            "address": "51.158.206.8",
+            "port": 23576,
             "users": [
               {
-                "id": "c21fc85c-0568-4684-8a6e-2725393dfecf",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nl3.freekeysh110.online",
-          "publicKey": "zVEDSKwQEIM6xRD7YEhJakteNI2xPK3xhhKulDo_vWg",
-          "fingerprint": "edge",
-          "shortId": "b664d93e9d7a04f1"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "164.37.100.195",
-            "port": 443,
+            "address": "3.114.220.22",
+            "port": 10583,
             "users": [
               {
-                "id": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+                "id": "814bd064-544d-4255-a070-5705c03f6da9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tomaz1337shellbuy.vvzzkontaktezzvv.garden",
-          "publicKey": "s0ypPx0AL3k2KOk74tbm-aE-i7eIR_MYVzfLHZeLaUk",
-          "fingerprint": "chrome",
-          "shortId": "2e124af254a65e7c"
+          "serverName": "www.apple.com",
+          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "fingerprint": "firefox",
+          "shortId": "48050fab"
         }
       }
     },
