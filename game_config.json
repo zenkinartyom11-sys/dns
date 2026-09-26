@@ -99,37 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.3.247.109",
-            "port": 43578,
-            "users": [
-              {
-                "id": "25a6a9f3-ad9e-45f2-96e1-be21c9d97789",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "apple.com",
-          "publicKey": "c5vigQXEfwPg0fAF6U68xrunhyXzYYfMAvsRQ6Cn2mA",
-          "fingerprint": "firefox",
-          "shortId": "0123456789abcdef"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "51.158.206.20",
+            "address": "51.158.206.29",
             "port": 23576,
             "users": [
               {
@@ -150,6 +120,36 @@
           "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "fingerprint": "chrome",
           "shortId": "01"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "50.7.193.142",
+            "port": 443,
+            "users": [
+              {
+                "id": "94877739-3af6-4fbb-85b6-ca6fe86c7696",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "apiv12nd.goonars.com",
+          "publicKey": "OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo",
+          "fingerprint": "firefox",
+          "shortId": "535a3304"
         }
       }
     },
