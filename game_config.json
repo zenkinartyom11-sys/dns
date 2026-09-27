@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.105.197.202",
+            "address": "86.54.28.75",
             "port": 443,
             "users": [
               {
-                "id": "22a375e0-f7c6-4d8f-a154-81189914bbf4",
+                "id": "44ae52b9-76fc-444d-8e43-186b4384b80a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "findmypackets.com",
-          "publicKey": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-          "fingerprint": "safari",
-          "shortId": "64c1fe36c7846400"
+          "serverName": "www.apple.com",
+          "publicKey": "PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU",
+          "fingerprint": "chrome",
+          "shortId": "1d86d17709852910"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.204.97.195",
-            "port": 23576,
+            "address": "147.182.212.232",
+            "port": 56565,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "7b188eea-b08f-42c2-bac7-d3b0e74218b8",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "firefox",
-          "shortId": "01"
+          "serverName": "www.paypal.com",
+          "publicKey": "Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY",
+          "fingerprint": "chrome",
+          "shortId": ""
         }
       }
     },
