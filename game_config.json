@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "47.253.144.114",
+            "address": "89.105.197.202",
             "port": 443,
             "users": [
               {
-                "id": "a4c6bab6-bd83-4b72-8c78-99e96f40cde3",
+                "id": "22a375e0-f7c6-4d8f-a154-81189914bbf4",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "yEpPLsSy8aCXkQ4wzc9t38gQACipc_k54upD9fJj5y4",
-          "fingerprint": "firefox",
-          "shortId": "4679f07417e9feb4"
+          "serverName": "findmypackets.com",
+          "publicKey": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
+          "fingerprint": "safari",
+          "shortId": "64c1fe36c7846400"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.163",
-            "port": 443,
+            "address": "15.204.97.195",
+            "port": 23576,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "ios",
-          "shortId": "c39cc7310a"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "firefox",
+          "shortId": "01"
         }
       }
     },
