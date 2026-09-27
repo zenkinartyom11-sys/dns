@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "86.54.28.75",
+            "address": "46.28.71.247",
             "port": 443,
             "users": [
               {
-                "id": "44ae52b9-76fc-444d-8e43-186b4384b80a",
+                "id": "12c53e32-e589-47d6-b857-e4132294f767",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU",
-          "fingerprint": "chrome",
-          "shortId": "1d86d17709852910"
+          "serverName": "www.cloudflare.com",
+          "publicKey": "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE",
+          "fingerprint": "firefox",
+          "shortId": "0dfc23fe80778c00"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "147.182.212.232",
-            "port": 56565,
+            "address": "78.153.155.121",
+            "port": 443,
             "users": [
               {
-                "id": "7b188eea-b08f-42c2-bac7-d3b0e74218b8",
+                "id": "61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.paypal.com",
-          "publicKey": "Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY",
-          "fingerprint": "chrome",
-          "shortId": ""
+          "serverName": "unpkg.com",
+          "publicKey": "hYoIx98zfa-cDdgG6mzuh96wQ3BxSA9CVy7NpNGkJRk",
+          "fingerprint": "safari",
+          "shortId": "035dc6023ca8ae88"
         }
       }
     },
