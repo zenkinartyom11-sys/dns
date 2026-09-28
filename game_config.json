@@ -99,11 +99,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "167.17.68.205",
+            "address": "ee.obxodvpn.us",
             "port": 443,
             "users": [
               {
-                "id": "4e0f4e59-3613-4f0c-b824-7348413d20e6",
+                "id": "c4e6cb77-ab66-42ef-be33-6b791fe604a0",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.apple.com",
+          "publicKey": "uOp9IW69PEn-toNzDs9IlCs8sdsMYm4XXjiPerrj41k",
+          "fingerprint": "chrome",
+          "shortId": ""
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "145.223.68.58",
+            "port": 443,
+            "users": [
+              {
+                "id": "edb50d20-2d3e-4c1e-8a75-a17168a89aa5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -117,39 +147,9 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.cloudflare.com",
-          "publicKey": "UE8hUjH1WYwemxIriq5lvtFCnHTdLF817okXr-u7MGs",
-          "fingerprint": "chrome",
-          "shortId": "250b5976473a"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "51.81.203.63",
-            "port": 443,
-            "users": [
-              {
-                "id": "cb2dbb6a-a1ea-4023-9ace-6466cee57241",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.icloud.com",
-          "publicKey": "nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0",
-          "fingerprint": "chrome",
-          "shortId": "4477382ff6d3d41c"
+          "publicKey": "qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg",
+          "fingerprint": "firefox",
+          "shortId": "a44ff7d2e80213c2"
         }
       }
     },
