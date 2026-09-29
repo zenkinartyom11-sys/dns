@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "136.0.213.120",
+            "address": "47.90.153.88",
             "port": 443,
             "users": [
               {
-                "id": "a368752a-32fc-42f3-980a-6b049218b23f",
+                "id": "1e255ca5-93b1-4952-a838-0783dfc034d8",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "usa-3.letsconnectpoint.com",
-          "publicKey": "Fd6VTTHCVNkP_H9EZBlSXEsHp_J3aRKeBpoYZ5gRiQc",
+          "serverName": "www.apple.com",
+          "publicKey": "QtYyp41YbDij6nygTaPPpqXqEGzDD3wYFI3YlfTjfBo",
           "fingerprint": "firefox",
-          "shortId": "a2b95f1d"
+          "shortId": "6b85179e"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "usa-3.letsconnectpoint.com",
+            "address": "169.40.42.133",
             "port": 443,
             "users": [
               {
-                "id": "a368752a-32fc-42f3-980a-6b049218b23f",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "usa-3.letsconnectpoint.com",
-          "publicKey": "Fd6VTTHCVNkP_H9EZBlSXEsHp_J3aRKeBpoYZ5gRiQc",
-          "fingerprint": "ios",
-          "shortId": "a2b95f1d"
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "chrome",
+          "shortId": "c39cc7310a"
         }
       }
     },
