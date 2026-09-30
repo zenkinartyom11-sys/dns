@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.154.118.134",
+            "address": "78.40.195.140",
             "port": 443,
             "users": [
               {
-                "id": "3c48b5f5-7766-4896-874e-b3ba1860e83a",
+                "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "w-mebel.pro",
-          "publicKey": "YhT24GkuI1r7Fwo8pxIYH3CmTtbRlYs5X7fWtYp3vTY",
+          "serverName": "www.booking.com",
+          "publicKey": "Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo",
           "fingerprint": "firefox",
-          "shortId": "05f4f85fdc6c1379"
+          "shortId": "98096455d963bdbb"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.235.246.215",
-            "port": 443,
+            "address": "45.159.79.71",
+            "port": 4443,
             "users": [
               {
-                "id": "d90087c3-54f5-4283-a13f-615260c8b0c7",
+                "id": "20dd9433-389e-4573-ba7b-689619cf13da",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "googleapis.com",
-          "publicKey": "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ",
+          "serverName": "sentry.io",
+          "publicKey": "321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "a1b2c3d4e5f6a7b8"
         }
       }
     },
