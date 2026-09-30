@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.15",
+            "address": "87.199.205.28",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "serverName": "vkvd754.okcdn.ru",
+          "publicKey": "W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw",
           "fingerprint": "firefox",
-          "shortId": "c39cc7310a"
+          "shortId": "ef1d3554c652a436"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "146.70.124.85",
+            "address": "slowkd.sadiepinki.com",
             "port": 443,
             "users": [
               {
-                "id": "40abbe13-f02e-4da2-9b19-966c2c3eb4ee",
+                "id": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.datadoghq.com",
-          "publicKey": "byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE",
+          "serverName": "slowkd.sadiepinki.com",
+          "publicKey": "z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo",
           "fingerprint": "firefox",
-          "shortId": "fe24f8a0a560056e"
+          "shortId": "9c2378562188c3cb"
         }
       }
     },
