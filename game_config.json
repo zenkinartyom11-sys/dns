@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.199.205.28",
+            "address": "185.95.231.156",
             "port": 443,
             "users": [
               {
-                "id": "501a2da5-cb22-4a3f-915e-e3b821d1d62d",
+                "id": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "vkvd754.okcdn.ru",
-          "publicKey": "W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw",
-          "fingerprint": "firefox",
-          "shortId": "ef1d3554c652a436"
+          "serverName": "www.apple.com",
+          "publicKey": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
+          "fingerprint": "chrome",
+          "shortId": "a3a578ab"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "slowkd.sadiepinki.com",
-            "port": 443,
+            "address": "172.233.139.46",
+            "port": 53734,
             "users": [
               {
-                "id": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
+                "id": "56a1b253-cde4-490f-9c5e-09a523882bdd",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "slowkd.sadiepinki.com",
-          "publicKey": "z37XIezsPyfMgmdXyFd9qT4C4maDAs1OcRt-wfyrXVo",
+          "serverName": "www.tesla.com",
+          "publicKey": "JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU",
           "fingerprint": "firefox",
-          "shortId": "9c2378562188c3cb"
+          "shortId": "a56d7d8da977f860"
         }
       }
     },
