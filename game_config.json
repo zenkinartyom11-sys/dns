@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.27.157.120",
+            "address": "31.70.111.146",
             "port": 443,
             "users": [
               {
-                "id": "2412bd96-925b-43f2-81d1-0ed4f0793699",
+                "id": "84ed0e09-6803-4ef9-a977-74b657d971e5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "download.amd.com",
-          "publicKey": "k0883nIGfstbzb8hES-dQ1yPcBwbUbnsyg4w-UA5gkA",
+          "serverName": "www.apple.com",
+          "publicKey": "ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE",
           "fingerprint": "firefox",
-          "shortId": "68aaa5222092bbea"
+          "shortId": "d7de3a6ff4018957"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.233.8.126",
-            "port": 443,
+            "address": "172.235.38.85",
+            "port": 42942,
             "users": [
               {
-                "id": "f08a52a4-a8ff-4c00-af72-ff4c68f0fefa",
+                "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tnt-cloud.ru",
-          "publicKey": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "fingerprint": "firefox",
-          "shortId": "0a4b7c3d"
+          "serverName": "www.tesla.com",
+          "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
+          "fingerprint": "chrome",
+          "shortId": "a56d7d8da977f860"
         }
       }
     },
