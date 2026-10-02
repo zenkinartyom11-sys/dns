@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.70.111.146",
+            "address": "94.183.253.211",
             "port": 443,
             "users": [
               {
-                "id": "84ed0e09-6803-4ef9-a977-74b657d971e5",
+                "id": "24e3a924-fc4b-4e3f-98a8-85d506d530f9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "ZNmuzIn-zyJi2C0sWRpL9fsMYCgYauXpJElXTqY_LEE",
+          "serverName": "germ2.serverslocal.ru",
+          "publicKey": "uLuPk7Ee7W9BcvjgM2FJHYG2NJxEeEkP7QVL8jYudhI",
           "fingerprint": "firefox",
-          "shortId": "d7de3a6ff4018957"
+          "shortId": "aa9bfaebd76d8b95"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.235.38.85",
-            "port": 42942,
+            "address": "31.77.59.107",
+            "port": 443,
             "users": [
               {
-                "id": "bca46025-bf43-40c0-895b-054a6fbcfd32",
+                "id": "a15d1b88-e3f4-4f4d-9c04-462a2965a60a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.tesla.com",
-          "publicKey": "JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU",
-          "fingerprint": "chrome",
-          "shortId": "a56d7d8da977f860"
+          "serverName": "pl193.mech-pro.online",
+          "publicKey": "jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI",
+          "fingerprint": "firefox",
+          "shortId": "16e0f049"
         }
       }
     },
