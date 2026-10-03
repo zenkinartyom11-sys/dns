@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.191.200.207",
+            "address": "194.93.61.86",
             "port": 443,
             "users": [
               {
-                "id": "7b9403d4-8b89-4531-a405-0e33fc5e044c",
+                "id": "41e71ba7-d389-47aa-94f7-ed1f55fdbcdf",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "dl.google.com",
-          "publicKey": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
+          "serverName": "cdnjs.com",
+          "publicKey": "E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "17d334ad29b2ff40"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "86.54.28.75",
+            "address": "new3.api.go-vpn.club",
             "port": 443,
             "users": [
               {
-                "id": "44ae52b9-76fc-444d-8e43-186b4384b80a",
+                "id": "41e71ba7-d389-47aa-94f7-ed1f55fdbcdf",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU",
+          "serverName": "cdnjs.com",
+          "publicKey": "E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ",
           "fingerprint": "firefox",
-          "shortId": "1d86d17709852910"
+          "shortId": "17d334ad29b2ff40"
         }
       }
     },
