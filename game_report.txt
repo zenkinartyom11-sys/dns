@@ -1,8 +1,8 @@
-# GAME CHECK 2026-10-03 05:28 UTC
-Серверов в конфиге: 2; мёртвых (по проверке с GitHub): 0
+# GAME CHECK 2026-10-03 11:49 UTC
+Серверов в конфиге: 2; мёртвых (по проверке с GitHub): 2
 Режим: замена ВСЕХ серверов свежими при каждом прогоне
-proxy: заменён -> 194.93.61.86:443 sni=cdnjs.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
-amazon: заменён -> new3.api.go-vpn.club:443 sni=cdnjs.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
+proxy: заменён -> jumpernode.online:443 sni=amazon.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
+amazon: заменён -> 152.53.127.214:443 sni=www.cloudflare.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
 URL подписки для Happ: https://raw.githubusercontent.com/zenkinartyom11-sys/dns/main/game_config.json
 Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3plbmtpbmFydHlvbTExLXN5cy9kbnMvbWFpbi9nYW1lX2NvbmZpZy5qc29u
-Время: 47 сек
+Время: 43 сек
