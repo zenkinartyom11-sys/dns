@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jumpernode.online",
+            "address": "185.218.17.127",
             "port": 443,
             "users": [
               {
-                "id": "e4cd263b-c5c7-4410-bf61-8893179ec429",
+                "id": "bc8446e7-ba8e-4dfd-92df-8681793fe31e",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "amazon.com",
-          "publicKey": "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE",
-          "fingerprint": "chrome",
-          "shortId": "6d962e8d8a0dce"
+          "serverName": "corporate.amazon.com",
+          "publicKey": "QKaBb_u0KoNkMYbh9ljrxC9BDtnHyFoaMd4-s4xfKxQ",
+          "fingerprint": "firefox",
+          "shortId": "33c0b6e213"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "152.53.127.214",
+            "address": "132.243.231.12",
             "port": 443,
             "users": [
               {
-                "id": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+                "id": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
+          "serverName": "d3-se1.cloud-cdn.xyz",
+          "publicKey": "zWDvtTWK-cWWwHDMHMXcOpQy4k3EKp7yw-5e0wTZAUM",
           "fingerprint": "firefox",
-          "shortId": "7a76f3c4b9dd"
+          "shortId": "5efa80b939612291"
         }
       }
     },
