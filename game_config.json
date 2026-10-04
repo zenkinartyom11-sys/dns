@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "50.7.95.171",
+            "address": "31.76.64.248",
             "port": 443,
             "users": [
               {
-                "id": "7610be85-9855-4010-8929-ce16d4993969",
+                "id": "0a322246-8c1a-47cd-9865-cccebbb2e5c1",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "panel.betust.net",
-          "publicKey": "2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o",
+          "serverName": "blog.api.www.cloudflare.com",
+          "publicKey": "9OV_GN4lgwY_4llPfYCGev-PPXLMj-hfYnveKF4tjws",
           "fingerprint": "firefox",
-          "shortId": "8ece2039"
+          "shortId": "f8"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.131.212.231",
+            "address": "jdvymxi.cvewfjg.shop",
             "port": 443,
             "users": [
               {
-                "id": "19513b1b-d29a-4f3e-ba9a-888261e4e048",
+                "id": "711c018e-2692-4aa8-93f3-544d83fcd16c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "sellflow.org",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "fingerprint": "firefox",
-          "shortId": ""
+          "serverName": "www.cloudflare.com",
+          "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
+          "fingerprint": "chrome",
+          "shortId": "7a76f3c4b9dd"
         }
       }
     },
