@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.104",
+            "address": "50.7.95.171",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "7610be85-9855-4010-8929-ce16d4993969",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "serverName": "panel.betust.net",
+          "publicKey": "2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o",
           "fingerprint": "firefox",
-          "shortId": "c39cc7310a"
+          "shortId": "8ece2039"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nl32.mech-pro.online",
+            "address": "45.131.212.231",
             "port": 443,
             "users": [
               {
-                "id": "ff35ca20-2304-4b3a-80e5-2c82953cf2ce",
+                "id": "19513b1b-d29a-4f3e-ba9a-888261e4e048",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nl32.mech-pro.online",
-          "publicKey": "jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI",
+          "serverName": "sellflow.org",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "fingerprint": "firefox",
-          "shortId": "16e0f049"
+          "shortId": ""
         }
       }
     },
