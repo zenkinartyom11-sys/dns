@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.76.64.248",
+            "address": "195.154.118.134",
             "port": 443,
             "users": [
               {
-                "id": "0a322246-8c1a-47cd-9865-cccebbb2e5c1",
+                "id": "3c48b5f5-7766-4896-874e-b3ba1860e83a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "blog.api.www.cloudflare.com",
-          "publicKey": "9OV_GN4lgwY_4llPfYCGev-PPXLMj-hfYnveKF4tjws",
+          "serverName": "w-mebel.pro",
+          "publicKey": "YhT24GkuI1r7Fwo8pxIYH3CmTtbRlYs5X7fWtYp3vTY",
           "fingerprint": "firefox",
-          "shortId": "f8"
+          "shortId": "05f4f85fdc6c1379"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "jdvymxi.cvewfjg.shop",
+            "address": "94.156.79.93",
             "port": 443,
             "users": [
               {
-                "id": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+                "id": "d6752c6b-80ae-4a91-b446-bb330f7f8177",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
-          "fingerprint": "chrome",
-          "shortId": "7a76f3c4b9dd"
+          "serverName": "www.foxsports.com",
+          "publicKey": "_0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg",
+          "fingerprint": "firefox",
+          "shortId": "88a13cf2655c"
         }
       }
     },
