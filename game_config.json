@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.207.130.15",
+            "address": "31.59.178.28",
             "port": 443,
             "users": [
               {
-                "id": "e4cd263b-c5c7-4410-bf61-8893179ec429",
+                "id": "6830756c-57aa-4aed-abc1-70f10970f8fa",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "amazon.com",
-          "publicKey": "sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE",
+          "serverName": "last.syoknew.work",
+          "publicKey": "P5RCcSo4SB1D5z7BnpIt9OUyjG650oX7DOg3_uEDqy4",
           "fingerprint": "firefox",
-          "shortId": "6d962e8d8a0dce"
+          "shortId": "0913aec861b849e9"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.163",
+            "address": "new3.api.go-vpn.club",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "41e71ba7-d389-47aa-94f7-ed1f55fdbcdf",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "ios",
-          "shortId": "c39cc7310a"
+          "serverName": "cdnjs.com",
+          "publicKey": "E1te_g9q6EWQVOCgjwI4PF-cml9qqW7OEAf33tYkUxQ",
+          "fingerprint": "firefox",
+          "shortId": "17d334ad29b2ff40"
         }
       }
     },
