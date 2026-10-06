@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.77.114.114",
-            "port": 443,
+            "address": "23.237.193.202",
+            "port": 8443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+                "id": "9c104116-b231-4626-94cb-6d8fc4d2b000",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.vk.me",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "fingerprint": "firefox",
-          "shortId": "db04ce8bdb8900f1"
+          "serverName": "usa-nf.reddotcorp.org",
+          "publicKey": "7YLtXcQkTEdKyGFmgi42nK73i0ttAP9tcQV12o5Ylyo",
+          "fingerprint": "random",
+          "shortId": "9db6b6d13d17987e"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.17.1.248",
+            "address": "185.104.63.173",
             "port": 443,
             "users": [
               {
-                "id": "ab1249da-9ac8-44c7-89a3-2d337ab25cb2",
+                "id": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "gust.sigy.me",
-          "publicKey": "vQKxWxae-2n1Bz9MGUiFQMVk0-D7X5f3QVgaTJ5wBkM",
+          "serverName": "zsat.eu-cdn294.com",
+          "publicKey": "Dj1TD7Sy_TciG915ffXFpMu_pYHnrpGo_ypyyDw44Uc",
           "fingerprint": "firefox",
-          "shortId": "0271bcb88c1551ae"
+          "shortId": "8fbdc8d37cc76852"
         }
       }
     },
