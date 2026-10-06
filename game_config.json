@@ -99,8 +99,38 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.39.4.109",
-            "port": 13672,
+            "address": "51.158.206.86",
+            "port": 23576,
+            "users": [
+              {
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "3.114.220.22",
+            "port": 19645,
             "users": [
               {
                 "id": "814bd064-544d-4255-a070-5705c03f6da9",
@@ -120,36 +150,6 @@
           "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
           "fingerprint": "chrome",
           "shortId": "48050fab"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.140.165.192",
-            "port": 443,
-            "users": [
-              {
-                "id": "ee18d188-14cc-417e-beb1-70e4add6d023",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "france.nztvpn.com",
-          "publicKey": "8EU4QO_Md_9ohyl1TfE5gtgPyxQ0QNTrXggljxOOvz0",
-          "fingerprint": "firefox",
-          "shortId": "0da7e14db353e7d0"
         }
       }
     },
