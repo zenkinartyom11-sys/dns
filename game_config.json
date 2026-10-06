@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.237.193.202",
-            "port": 8443,
+            "address": "3.39.4.109",
+            "port": 13672,
             "users": [
               {
-                "id": "9c104116-b231-4626-94cb-6d8fc4d2b000",
+                "id": "814bd064-544d-4255-a070-5705c03f6da9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "usa-nf.reddotcorp.org",
-          "publicKey": "7YLtXcQkTEdKyGFmgi42nK73i0ttAP9tcQV12o5Ylyo",
-          "fingerprint": "random",
-          "shortId": "9db6b6d13d17987e"
+          "serverName": "www.apple.com",
+          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "fingerprint": "chrome",
+          "shortId": "48050fab"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.104.63.173",
+            "address": "45.140.165.192",
             "port": 443,
             "users": [
               {
-                "id": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
+                "id": "ee18d188-14cc-417e-beb1-70e4add6d023",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "zsat.eu-cdn294.com",
-          "publicKey": "Dj1TD7Sy_TciG915ffXFpMu_pYHnrpGo_ypyyDw44Uc",
+          "serverName": "france.nztvpn.com",
+          "publicKey": "8EU4QO_Md_9ohyl1TfE5gtgPyxQ0QNTrXggljxOOvz0",
           "fingerprint": "firefox",
-          "shortId": "8fbdc8d37cc76852"
+          "shortId": "0da7e14db353e7d0"
         }
       }
     },
