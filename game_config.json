@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.12",
+            "address": "51.158.206.29",
             "port": 23576,
             "users": [
               {
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.228.155.238",
-            "port": 443,
+            "address": "51.158.206.87",
+            "port": 23576,
             "users": [
               {
-                "id": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "addons.mozilla.org",
-          "publicKey": "5BDht3tAZdKEKpJymGlRK9JugOnieA-kMSWz_0FoE0I",
-          "fingerprint": "firefox",
-          "shortId": "6f76ad09"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
         }
       }
     },
