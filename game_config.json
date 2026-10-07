@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.86",
+            "address": "51.158.206.12",
             "port": 23576,
             "users": [
               {
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.114.220.22",
-            "port": 19645,
+            "address": "157.228.155.238",
+            "port": 443,
             "users": [
               {
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
+                "id": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "fingerprint": "chrome",
-          "shortId": "48050fab"
+          "serverName": "addons.mozilla.org",
+          "publicKey": "5BDht3tAZdKEKpJymGlRK9JugOnieA-kMSWz_0FoE0I",
+          "fingerprint": "firefox",
+          "shortId": "6f76ad09"
         }
       }
     },
