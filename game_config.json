@@ -99,41 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "152.53.127.214",
+            "address": "185.95.231.156",
             "port": 443,
             "users": [
               {
-                "id": "711c018e-2692-4aa8-93f3-544d83fcd16c",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
-          "fingerprint": "chrome",
-          "shortId": "7a76f3c4b9dd"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "86.54.28.75",
-            "port": 443,
-            "users": [
-              {
-                "id": "44ae52b9-76fc-444d-8e43-186b4384b80a",
+                "id": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -147,9 +117,39 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.apple.com",
-          "publicKey": "PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU",
+          "publicKey": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
           "fingerprint": "chrome",
-          "shortId": "1d86d17709852910"
+          "shortId": "a3a578ab"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "hk3n.wxgqlfx.vip",
+            "port": 35193,
+            "users": [
+              {
+                "id": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.apple.com",
+          "publicKey": "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE",
+          "fingerprint": "firefox",
+          "shortId": "e8daed2d"
         }
       }
     },
