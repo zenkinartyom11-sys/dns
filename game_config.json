@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.77.114.114",
+            "address": "212.100.171.154",
             "port": 443,
             "users": [
               {
-                "id": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+                "id": "a5ce10af-5e95-4eb3-ab87-bf4f95cb059b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.vk.me",
-          "publicKey": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "serverName": "www.google.com",
+          "publicKey": "8u8r2iWMt8Isz2ZNRbn3g4cfldhcePRB-1hxGYLTnSg",
           "fingerprint": "firefox",
-          "shortId": "db04ce8bdb8900f1"
+          "shortId": "aa6582cf25e243ce"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "142.228.52.101",
-            "port": 443,
+            "address": "45.159.79.71",
+            "port": 4443,
             "users": [
               {
-                "id": "267b3a79-81f2-42ac-a409-c23b05b6329d",
+                "id": "20dd9433-389e-4573-ba7b-689619cf13da",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fi7.bbobr.win",
-          "publicKey": "tmTxawUP9tQ-CpfNqrxGHvWpEf4qbYWEHGFChh9mYUA",
+          "serverName": "sentry.io",
+          "publicKey": "321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8",
           "fingerprint": "firefox",
-          "shortId": "42b8975fc11f3127"
+          "shortId": "a1b2c3d4e5f6a7b8"
         }
       }
     },
