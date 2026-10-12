@@ -1,8 +1,8 @@
-# GAME CHECK 2026-10-12 00:38 UTC
+# GAME CHECK 2026-10-12 11:05 UTC
 Серверов в конфиге: 2; мёртвых (по проверке с GitHub): 0
 Режим: замена ВСЕХ серверов свежими при каждом прогоне
-proxy: заменён -> 87.242.95.77:7444 sni=novosrv.raw-srv.org (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: белый (аварийный запас))
-amazon: заменён -> 178.17.57.120:40443 sni=deepl.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
+proxy: заменён -> 172.245.253.16:443 sni=www.apple.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
+amazon: заменён -> 169.40.42.184:443 sni=yahoo.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
 URL подписки для Happ: https://raw.githubusercontent.com/zenkinartyom11-sys/dns/main/game_config.json
 Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3plbmtpbmFydHlvbTExLXN5cy9kbnMvbWFpbi9nYW1lX2NvbmZpZy5qc29u
-Время: 54 сек
+Время: 59 сек

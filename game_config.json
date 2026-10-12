@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.242.95.77",
-            "port": 7444,
+            "address": "172.245.253.16",
+            "port": 443,
             "users": [
               {
-                "id": "cd00e244-3d0c-412a-8a6b-f9d389b01bba",
+                "id": "b67422ff-101b-433b-8f66-4ab282960b36",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "novosrv.raw-srv.org",
-          "publicKey": "PZajgWT2dtEu0Avc2QWiZELK9wDQW9p9vvcckfQBfCE",
-          "fingerprint": "firefox",
-          "shortId": "632cd48001bdb09a"
+          "serverName": "www.apple.com",
+          "publicKey": "Vh8dv6ENmfFd4JlPgj9-R1Fbet2m6JyRFukcVvDq5A8",
+          "fingerprint": "chrome",
+          "shortId": "e7dc2c820ba8bbd4"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "178.17.57.120",
-            "port": 40443,
+            "address": "169.40.42.184",
+            "port": 443,
             "users": [
               {
-                "id": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "deepl.com",
-          "publicKey": "w4AYHvQnQS6olDqoG9ptLOtgehaWOsv9HQhDax5bLA4",
-          "fingerprint": "firefox",
-          "shortId": "db46e2946fc466fd"
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "ios",
+          "shortId": "c39cc7310a"
         }
       }
     },
