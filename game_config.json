@@ -99,41 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "staging.lastilhame.monster",
+            "address": "46.28.71.247",
             "port": 443,
             "users": [
               {
-                "id": "594d466e-8ac3-4fda-b1d1-eeb817853518",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.microsoft.com",
-          "publicKey": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "fingerprint": "chrome",
-          "shortId": "5a018643df03"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "152.53.236.22",
-            "port": 443,
-            "users": [
-              {
-                "id": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+                "id": "12c53e32-e589-47d6-b857-e4132294f767",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -147,9 +117,39 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.cloudflare.com",
-          "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
+          "publicKey": "v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE",
           "fingerprint": "chrome",
-          "shortId": "7a76f3c4b9dd"
+          "shortId": "0dfc23fe80778c00"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "157.228.150.34",
+            "port": 443,
+            "users": [
+              {
+                "id": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "addons.mozilla.org",
+          "publicKey": "NOw-idkk3OCn-N0IRS93leujH4ik-E749O2T5BYJQ0M",
+          "fingerprint": "chrome",
+          "shortId": "3cef317b"
         }
       }
     },
