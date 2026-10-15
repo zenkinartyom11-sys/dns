@@ -99,7 +99,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.35",
+            "address": "51.158.206.86",
+            "port": 23576,
+            "users": [
+              {
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "169.40.42.224",
             "port": 443,
             "users": [
               {
@@ -118,38 +148,8 @@
         "realitySettings": {
           "serverName": "yahoo.com",
           "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
+          "fingerprint": "ios",
           "shortId": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.76.249.99",
-            "port": 2083,
-            "users": [
-              {
-                "id": "0be0a2bf-aa20-4e52-aa5a-3d59d56b1582",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "genexus.underground.company",
-          "publicKey": "52ubfjA6UOtgDpRoap_ERN7qIFl0VgucprglobhPjnw",
-          "fingerprint": "firefox",
-          "shortId": "f9e41dee3defd503"
         }
       }
     },
