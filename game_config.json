@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "2.27.71.48",
+            "address": "195.58.140.146",
             "port": 443,
             "users": [
               {
-                "id": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
+                "id": "d7790b85-9659-4558-a405-e0ab57d32984",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "addons.mozilla.org",
-          "publicKey": "FTB4bvTP-3JAbScj_vvkIOPFGjtN2TaNTUfeY-Ew8EU",
+          "serverName": "d1-fr.cloud-cdn.xyz",
+          "publicKey": "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI",
           "fingerprint": "firefox",
-          "shortId": "4d767145"
+          "shortId": "dc927a04e8572c61"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xray1-direct-mci1-fs-ce.freesocks.work",
+            "address": "nl1.aiage.work",
             "port": 443,
             "users": [
               {
-                "id": "ff9053c2-3358-47e0-aa3b-72bf99e1d231",
+                "id": "6338c01a-310e-42c3-bf4f-2a20e161054b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "dl.google.com",
-          "publicKey": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
-          "fingerprint": "chrome",
-          "shortId": ""
+          "serverName": "nl1.aiage.work",
+          "publicKey": "vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk",
+          "fingerprint": "firefox",
+          "shortId": "adcbde41b1cf27ba"
         }
       }
     },
