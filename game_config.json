@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.58.140.146",
+            "address": "43.206.91.175",
             "port": 443,
             "users": [
               {
-                "id": "d7790b85-9659-4558-a405-e0ab57d32984",
+                "id": "638d9b71-941d-45d7-a11b-4e012b6259b8",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "d1-fr.cloud-cdn.xyz",
-          "publicKey": "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI",
-          "fingerprint": "firefox",
-          "shortId": "dc927a04e8572c61"
+          "serverName": "www.samsung.com",
+          "publicKey": "DAgqTSuxmGE7fP-upyw4qCoM1fqQIDC7Im5K2pL5UXs",
+          "fingerprint": "chrome",
+          "shortId": "9ebc0931"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nl1.aiage.work",
-            "port": 443,
+            "address": "3.0.111.82",
+            "port": 17623,
             "users": [
               {
-                "id": "6338c01a-310e-42c3-bf4f-2a20e161054b",
+                "id": "814bd064-544d-4255-a070-5705c03f6da9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nl1.aiage.work",
-          "publicKey": "vSa3rWZfq5OftXO2RSgggbTOxbHlWGTLpP8bNDki3wk",
-          "fingerprint": "firefox",
-          "shortId": "adcbde41b1cf27ba"
+          "serverName": "www.apple.com",
+          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "fingerprint": "chrome",
+          "shortId": "48050fab"
         }
       }
     },
