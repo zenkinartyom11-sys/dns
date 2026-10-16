@@ -99,11 +99,41 @@
       "settings": {
         "vnext": [
           {
-            "address": "137.184.218.169",
-            "port": 36925,
+            "address": "15.204.97.197",
+            "port": 23576,
             "users": [
               {
-                "id": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.244.94.21",
+            "port": 20543,
+            "users": [
+              {
+                "id": "4222e71c-9934-4d31-902d-ce178e8b9a54",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -117,39 +147,9 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.cloudflare.com",
-          "publicKey": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
+          "publicKey": "0ZRIRi3Wr7XpWfOPc06yi7TIzl-ccP5fyS6RC2mDakI",
           "fingerprint": "chrome",
-          "shortId": ""
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "169.40.42.173",
-            "port": 443,
-            "users": [
-              {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "ios",
-          "shortId": "c39cc7310a"
+          "shortId": "2ba1d452414f40ba"
         }
       }
     },
