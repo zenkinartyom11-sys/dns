@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.123.240.65",
-            "port": 443,
+            "address": "137.184.218.169",
+            "port": 36925,
             "users": [
               {
-                "id": "ce18d0eb-5c71-41f9-96e5-1632e22456e4",
+                "id": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -117,9 +117,9 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "www.cloudflare.com",
-          "publicKey": "StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE",
-          "fingerprint": "ios",
-          "shortId": "19296c9f1bf9c7b1"
+          "publicKey": "lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0",
+          "fingerprint": "chrome",
+          "shortId": ""
         }
       }
     },
@@ -129,7 +129,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.231",
+            "address": "169.40.42.173",
             "port": 443,
             "users": [
               {
