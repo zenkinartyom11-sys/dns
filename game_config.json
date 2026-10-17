@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "144.31.4.234",
+            "address": "freeus.aiage.work",
             "port": 443,
             "users": [
               {
-                "id": "8a9c586c-4b2c-49e5-9e78-97408bf58500",
+                "id": "6338c01a-310e-42c3-bf4f-2a20e161054b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "direct-nl.bachidze.com",
-          "publicKey": "E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw",
+          "serverName": "freeus.aiage.work",
+          "publicKey": "pxLk0ocXqKYYqUFyALvH2BVXaswI-6NE00posKNayy0",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "ccaf7283610c6fa8"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.181.151.39",
+            "address": "195.123.235.177",
             "port": 443,
             "users": [
               {
-                "id": "b60cab55-e7a1-413d-a297-ddd7bad3fb62",
+                "id": "729dd5f2-f5ff-4070-8c10-863eceded0b1",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.microsoft.com",
-          "publicKey": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
-          "fingerprint": "firefox",
-          "shortId": "bbcab8fa80a3"
+          "serverName": "gateway.icloud.com",
+          "publicKey": "5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI",
+          "fingerprint": "chrome",
+          "shortId": ""
         }
       }
     },
