@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "t17.qifei.app",
+            "address": "107.181.151.39",
             "port": 443,
             "users": [
               {
-                "id": "b98d4c6e-6770-4a31-8256-a4750cdea0e7",
+                "id": "d84c13b2-c2b9-4a7c-838f-05ac09ee422e",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.amazon.com",
-          "publicKey": "0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo",
-          "fingerprint": "ios",
-          "shortId": "1a"
+          "serverName": "www.mozilla.org",
+          "publicKey": "J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk",
+          "fingerprint": "firefox",
+          "shortId": "2a2ce9e42980"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "144.31.4.234",
+            "address": "82.118.16.187",
             "port": 443,
             "users": [
               {
-                "id": "8a9c586c-4b2c-49e5-9e78-97408bf58500",
+                "id": "dc2259c4-388e-4285-ba18-df619b6672b6",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "direct-nl.bachidze.com",
-          "publicKey": "E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw",
+          "serverName": "www.cloudflare.com",
+          "publicKey": "R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "cd6065902eea7a02"
         }
       }
     },
