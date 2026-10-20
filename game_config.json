@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.194.66.191",
+            "address": "pl.golangwikito.cfd",
             "port": 443,
             "users": [
               {
@@ -118,7 +118,7 @@
         "realitySettings": {
           "serverName": "pl.golangwikito.cfd",
           "publicKey": "DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "shortId": "f8b695e5c59d028c"
         }
       }
@@ -129,7 +129,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.19",
+            "address": "51.158.206.103",
             "port": 23576,
             "users": [
               {
