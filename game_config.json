@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "pl.golangwikito.cfd",
+            "address": "89.127.211.136",
             "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "id": "02882344-474d-4876-88a2-f9c0d973c4df",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "pl.golangwikito.cfd",
-          "publicKey": "DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg",
-          "fingerprint": "chrome",
-          "shortId": "f8b695e5c59d028c"
+          "serverName": "www.sony.co.uk",
+          "publicKey": "pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM",
+          "fingerprint": "firefox",
+          "shortId": "dbafdfc81bc20552"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.103",
-            "port": 23576,
+            "address": "152.53.239.182",
+            "port": 443,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "711c018e-2692-4aa8-93f3-544d83fcd16c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "serverName": "www.cloudflare.com",
+          "publicKey": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
           "fingerprint": "chrome",
-          "shortId": "01"
+          "shortId": "7a76f3c4b9dd"
         }
       }
     },
