@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "50.7.193.147",
-            "port": 443,
+            "address": "15.204.97.216",
+            "port": 23576,
             "users": [
               {
-                "id": "3b1fa839-2cb9-4511-9711-08800450aea3",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "apiv12nd.goonars.com",
-          "publicKey": "OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo",
-          "fingerprint": "firefox",
-          "shortId": "535a3304"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xray1-direct-mci1-fs-ce.freesocks.work",
-            "port": 443,
+            "address": "51.158.206.8",
+            "port": 23576,
             "users": [
               {
-                "id": "5d9df866-5b64-4871-bc4a-35c84ed0ef40",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "dl.google.com",
-          "publicKey": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "fingerprint": "chrome",
-          "shortId": ""
+          "shortId": "01"
         }
       }
     },
