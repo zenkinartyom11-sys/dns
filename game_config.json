@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "hkg.safe-connect.info",
+            "address": "169.40.42.89",
             "port": 443,
             "users": [
               {
-                "id": "faefb4ef-8243-4288-bf69-07fc69b4a70b",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "ist.safe-connect.info",
-          "publicKey": "esThHTzCY1Bnk1N9vPbcROctLNmKsBkSy1fvDKJ2718",
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
           "fingerprint": "chrome",
-          "shortId": "dc1118338b14fbd8"
+          "shortId": "c39cc7310a"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.127.211.136",
-            "port": 443,
+            "address": "31.77.199.147",
+            "port": 4443,
             "users": [
               {
-                "id": "02882344-474d-4876-88a2-f9c0d973c4df",
+                "id": "20dd9433-389e-4573-ba7b-689619cf13da",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.sony.co.uk",
-          "publicKey": "pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM",
-          "fingerprint": "firefox",
-          "shortId": "dbafdfc81bc20552"
+          "serverName": "images.unsplash.com",
+          "publicKey": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
+          "fingerprint": "chrome",
+          "shortId": "7da2eae792187ab9"
         }
       }
     },
