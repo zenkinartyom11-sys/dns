@@ -99,7 +99,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.89",
+            "address": "137.74.16.237",
+            "port": 443,
+            "users": [
+              {
+                "id": "aaec4e42-a095-44b6-a239-f16d234a0798",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.icloud.com",
+          "publicKey": "7LSzvilTVKGMtBDuKGeMrLtlhY7tQf5YcG566dEgO0I",
+          "fingerprint": "random",
+          "shortId": "b390e0a721d242b0"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "169.40.42.90",
             "port": 443,
             "users": [
               {
@@ -118,38 +148,8 @@
         "realitySettings": {
           "serverName": "yahoo.com",
           "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
+          "fingerprint": "ios",
           "shortId": "c39cc7310a"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.77.199.147",
-            "port": 4443,
-            "users": [
-              {
-                "id": "20dd9433-389e-4573-ba7b-689619cf13da",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "images.unsplash.com",
-          "publicKey": "GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A",
-          "fingerprint": "chrome",
-          "shortId": "7da2eae792187ab9"
         }
       }
     },
