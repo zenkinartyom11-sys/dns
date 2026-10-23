@@ -99,11 +99,41 @@
       "settings": {
         "vnext": [
           {
+            "address": "hkg.safe-connect.info",
+            "port": 443,
+            "users": [
+              {
+                "id": "faefb4ef-8243-4288-bf69-07fc69b4a70b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ist.safe-connect.info",
+          "publicKey": "esThHTzCY1Bnk1N9vPbcROctLNmKsBkSy1fvDKJ2718",
+          "fingerprint": "chrome",
+          "shortId": "dc1118338b14fbd8"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "89.127.211.136",
             "port": 443,
             "users": [
               {
-                "id": "c6870394-d8f2-4a63-8a63-d30e883bf255",
+                "id": "02882344-474d-4876-88a2-f9c0d973c4df",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -120,36 +150,6 @@
           "publicKey": "pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM",
           "fingerprint": "firefox",
           "shortId": "dbafdfc81bc20552"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "3.114.220.22",
-            "port": 19645,
-            "users": [
-              {
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "fingerprint": "chrome",
-          "shortId": "48050fab"
         }
       }
     },
