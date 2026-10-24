@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.127.211.136",
+            "address": "2.27.14.244",
             "port": 443,
             "users": [
               {
-                "id": "ec3acb5f-38f3-4374-b91b-36f41b8a414a",
+                "id": "fd1d80da-3b27-457a-810b-2b28a309edc1",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.sony.co.uk",
-          "publicKey": "pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM",
+          "serverName": "www.google.com",
+          "publicKey": "uakxTTpl0pQZxA-wu_QEsyVDUlErAxEKmFcnQrzABXw",
           "fingerprint": "chrome",
-          "shortId": "dbafdfc81bc20552"
+          "shortId": "c24b46e36cc6d6fa"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.161.230",
+            "address": "138.124.63.169",
             "port": 443,
             "users": [
               {
-                "id": "3d87029f-b55b-487d-aea6-6049c8668ff1",
+                "id": "5131b5e9-2c3c-44a0-8f18-0641f3f21cac",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "wifi13.jzxc.digital",
-          "publicKey": "UdBGJ1I5lzeteEjn5sLZfVTUcUidtjTx3cF92rPzgGk",
+          "serverName": "lv2.himoy.space",
+          "publicKey": "AoPku9i0xSD2cCzJdPcUSSft8c_RkIZbsbP888VO938",
           "fingerprint": "firefox",
-          "shortId": "3eed9b237e5e5baf"
+          "shortId": "287b3d62899669d7"
         }
       }
     },
