@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.150.33.33",
+            "address": "pa6r26.eu-cdn539.com",
             "port": 443,
             "users": [
               {
-                "id": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
+                "id": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "amazon.de",
-          "publicKey": "G8SING6Ibc_igZ5vI5578fXCT_mBMRuq_o8_Ymnj2SQ",
+          "serverName": "zsde.eu-cdn294.com",
+          "publicKey": "f4EJP55daJRlJkcZbbGsY-gFGGFGiXPPdfVxtNWQPCE",
           "fingerprint": "chrome",
-          "shortId": "eba1498e012ef580"
+          "shortId": "c8621ebb1e56abb3"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.127.211.136",
+            "address": "xray2-direct-mci1-fs-ce.freesocks.work",
             "port": 443,
             "users": [
               {
-                "id": "71b753e5-e086-4f30-b131-d36b75ba6918",
+                "id": "b57ac7f4-7c85-49a1-a801-e78706e08d17",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.sony.co.uk",
-          "publicKey": "pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM",
+          "serverName": "dl.google.com",
+          "publicKey": "7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI",
           "fingerprint": "chrome",
-          "shortId": "dbafdfc81bc20552"
+          "shortId": ""
         }
       }
     },
