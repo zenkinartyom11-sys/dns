@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "209.200.246.148",
+            "address": "2.56.126.64",
             "port": 443,
             "users": [
               {
-                "id": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
+                "id": "35da102e-536b-4103-9632-58c7c4c6303b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk",
-          "fingerprint": "chrome",
-          "shortId": "f98843107912e782"
+          "serverName": "pl3.originmesh.online",
+          "publicKey": "ltQ7842eBLUE37uQ_g5BVxtyzr6o1xr1bfs0roiHOGI",
+          "fingerprint": "firefox",
+          "shortId": "eecfe76af97a6132"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.29",
-            "port": 23576,
+            "address": "196.247.163.10",
+            "port": 443,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "chrome",
-          "shortId": "01"
+          "serverName": "britainmh.eosvpn.com",
+          "publicKey": "5984Ah0pkfSVekU5xafQ1trZZN7MyNCJ-3KfCo-O6A4",
+          "fingerprint": "firefox",
+          "shortId": ""
         }
       }
     },
