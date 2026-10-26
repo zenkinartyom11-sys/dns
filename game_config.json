@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "201.58.182.250",
+            "address": "89.127.211.136",
             "port": 443,
             "users": [
               {
-                "id": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+                "id": "b6f12004-f804-4663-9c37-a837292eb1d3",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "hollandlanzerotte.xyz",
-          "publicKey": "EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc",
+          "serverName": "www.sony.co.uk",
+          "publicKey": "pX5gBaqZ57BIArPg8zxl4_DWEZoAvegxdxEjHQFHfWM",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "dbafdfc81bc20552"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.246.88.125",
-            "port": 26518,
+            "address": "ru11.oshost.network",
+            "port": 443,
             "users": [
               {
-                "id": "e01fcb68-3112-49da-b85d-dffb799cfc9b",
+                "id": "afbd410e-1663-4f40-9d3b-df5117aa23ca",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "github.com",
-          "publicKey": "1fa6iCY7vhoQyKu91FeaK04FN-mr1qeHnrtdyLZ79mk",
+          "serverName": "ru11.oshost.network",
+          "publicKey": "52fsWySqEpUvCt-jbEy2rYjVIZBYwoqsGfmSef8_UgI",
           "fingerprint": "firefox",
-          "shortId": "6caead99"
+          "shortId": "97a15f5af85c4a30"
         }
       }
     },
