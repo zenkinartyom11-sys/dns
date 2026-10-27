@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.168",
-            "port": 443,
+            "address": "2.26.224.23",
+            "port": 1443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
-          "shortId": "c39cc7310a"
+          "serverName": "pl.peregrine-sub.net",
+          "publicKey": "PUj1la__ltNjv_ASE5n4HJY7GiRs--N-0aYhkcAApCI",
+          "fingerprint": "firefox",
+          "shortId": "7b6803a79bba5c52"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "201.58.182.216",
+            "address": "31.76.91.98",
             "port": 443,
             "users": [
               {
-                "id": "2bb5176f-cc45-41b5-908c-441581dccf8a",
+                "id": "7072eeba-94fd-4fb3-92f2-a4506dd84cd8",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nlport.ptlux.pro",
-          "publicKey": "B7a6QgVW-E1QjZf5qi92n6btgHvmzfX1ooE7llCCwW8",
+          "serverName": "fuji.etherhub.cc",
+          "publicKey": "ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg",
           "fingerprint": "firefox",
-          "shortId": "66682da1"
+          "shortId": "bd6f67b6b2152b45"
         }
       }
     },
