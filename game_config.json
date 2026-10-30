@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "93.152.223.244",
+            "address": "107.181.151.128",
             "port": 443,
             "users": [
               {
-                "id": "706bce83-91db-4260-b175-cba29145cd56",
+                "id": "75113671-63e3-452d-87d3-261a37e8b472",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "ddk5-ger.newagetechnologies.live",
-          "publicKey": "yKwDGqOdkC_nEPOQHMvAQLPcPK8YHskv_opYoY66Yk8",
+          "serverName": "www.mozilla.org",
+          "publicKey": "zfsjt2A8ur0qHWIuCG7F9W4wZN3VTuL6fkTljC-9R0s",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "baf023e1026a"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.135.73.47",
-            "port": 443,
+            "address": "ww13.levikogjgfdd.ir",
+            "port": 23576,
             "users": [
               {
-                "id": "25e16692-d097-4e69-9e2d-8415609c1968",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.datadoghq.com",
-          "publicKey": "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8",
-          "fingerprint": "firefox",
-          "shortId": "f46cd3ea3d1eb72d"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
         }
       }
     },
