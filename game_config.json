@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "194.48.250.133",
-            "port": 443,
+            "address": "15.204.97.198",
+            "port": 23576,
             "users": [
               {
-                "id": "1fe01c8a-ab37-4e95-bbfc-95d4a608931e",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "ge-1cent.waspguard.ru",
-          "publicKey": "VS6g3UyBAFGw65C9c3uGMUrSYbzsGxVdzrxGielCPyw",
-          "fingerprint": "firefox",
-          "shortId": "ae97223a8f799011"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.114.220.22",
-            "port": 19645,
+            "address": "89.125.11.155",
+            "port": 443,
             "users": [
               {
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
+                "id": "a03c6a2a-1ed6-400b-8f5c-0716e9be9eec",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "serverName": "de-room08.filesnap.tech",
+          "publicKey": "CUSFPraue1yEGndZDSTP9gRsGy1Xj9rBRlX1IuWPFgE",
           "fingerprint": "firefox",
-          "shortId": "48050fab"
+          "shortId": "44c16014be81b912"
         }
       }
     },
