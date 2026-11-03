@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.87",
+            "address": "51.158.206.25",
             "port": 23576,
             "users": [
               {
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.168",
+            "address": "13.140.94.191",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
-          "shortId": "c39cc7310a"
+          "serverName": "tradingview.com",
+          "publicKey": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
+          "fingerprint": "firefox",
+          "shortId": "8f3c6e2a1b5d4f09"
         }
       }
     },
