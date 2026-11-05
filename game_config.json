@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "germany1.xorsand.eu",
-            "port": 10105,
+            "address": "vdsin.xvanta.online",
+            "port": 443,
             "users": [
               {
-                "id": "ad3f4a0a-a89f-498e-9869-a93c8fa185b1",
+                "id": "71b566cb-78c4-48e4-af5b-720e4f7884f2",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "play.google.com",
-          "publicKey": "PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es",
-          "fingerprint": "chrome",
-          "shortId": "12e321badd07906e"
+          "serverName": "vdsin.xvanta.online",
+          "publicKey": "xEDYfxVdiRkY-z7qiUvoly7fYDz4U6wI5p69oNbjWA4",
+          "fingerprint": "firefox",
+          "shortId": "f9d991431c87703c"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "43.153.121.144",
-            "port": 443,
+            "address": "151.241.88.81",
+            "port": 19606,
             "users": [
               {
-                "id": "df63ee5d-9530-464d-bb1c-ca1fa00e8b98",
+                "id": "782ba1d2-1241-418e-9054-463c08a424bc",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "-6_eN_0VKwqVaYN_jU9WdQ9yEpiLGvJQffhGThYLqGQ",
+          "serverName": "zh-hk.vuejs.org",
+          "publicKey": "4GIE6ygCBY4pqRPkQ3OLLo6inpNcbBUEYLIqjMoZ3n4",
           "fingerprint": "chrome",
-          "shortId": "c2f1c482d8d339a5"
+          "shortId": "6ba85179e30d4fc2"
         }
       }
     },
