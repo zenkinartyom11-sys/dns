@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.204.97.198",
-            "port": 23576,
+            "address": "germany1.xorsand.eu",
+            "port": 10105,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "ad3f4a0a-a89f-498e-9869-a93c8fa185b1",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "serverName": "play.google.com",
+          "publicKey": "PFC3JN1er1JE2vAemwRhNjewz8I4NUWP4XHf2Dza4Es",
           "fingerprint": "chrome",
-          "shortId": "01"
+          "shortId": "12e321badd07906e"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "209.141.49.243",
+            "address": "43.153.121.144",
             "port": 443,
             "users": [
               {
-                "id": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
+                "id": "df63ee5d-9530-464d-bb1c-ca1fa00e8b98",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.porsche.com",
-          "publicKey": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "fingerprint": "firefox",
-          "shortId": "1a2b3c4d"
+          "serverName": "www.cloudflare.com",
+          "publicKey": "-6_eN_0VKwqVaYN_jU9WdQ9yEpiLGvJQffhGThYLqGQ",
+          "fingerprint": "chrome",
+          "shortId": "c2f1c482d8d339a5"
         }
       }
     },
