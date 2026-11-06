@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.172.214.195",
-            "port": 443,
+            "address": "23.95.115.116",
+            "port": 2053,
             "users": [
               {
-                "id": "2af77824-f83d-4f50-9dd0-560bb6e7cd45",
+                "id": "2739258b-a278-4bed-bc5d-f88830824dce",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "academy.nvidia.com",
-          "publicKey": "jK8yu9AMtNQ4J_uKE1inAzJr6V5J4GNK3sAN6nZBbUo",
-          "fingerprint": "firefox",
-          "shortId": ""
+          "serverName": "www.cloudflare.com",
+          "publicKey": "plwyjJZIVDt1OtwDAxfcLjDsR7dseVCe9Ia3HceIKEg",
+          "fingerprint": "chrome",
+          "shortId": "a1b2c3d4"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "179.255.139.212",
-            "port": 41392,
+            "address": "138.124.125.193",
+            "port": 10444,
             "users": [
               {
-                "id": "47e5e6c1-7228-402d-8df9-fa01b1010ba0",
+                "id": "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "apple.com",
-          "publicKey": "LOUa3SbB3M-pcOZTl5-Bei8gJRIiagR35arRnxNmFic",
+          "serverName": "ads.x5.ru",
+          "publicKey": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
           "fingerprint": "chrome",
-          "shortId": "77f82e43"
+          "shortId": "8debcf36f1cc69ff"
         }
       }
     },
