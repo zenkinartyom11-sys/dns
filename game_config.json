@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "138.124.245.102",
+            "address": "app26.betust.net",
             "port": 443,
             "users": [
               {
-                "id": "727a9178-d7f0-4142-8205-b0d19959ded0",
+                "id": "2232d904-8e6a-4202-8240-6efd8aec02e9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "bol.com",
-          "publicKey": "yyXZsa238GRW90w5DweXAdRTtVSuK9oZF_dihKQ41So",
-          "fingerprint": "edge",
-          "shortId": "9e5a335de26d1f5a"
+          "serverName": "app26.betust.net",
+          "publicKey": "5pR15ATlWW3tVzfnMN3xoiN56LjIUbhnOMp37ZvTFUc",
+          "fingerprint": "firefox",
+          "shortId": "d44d6d46"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.148.255.201",
-            "port": 8443,
+            "address": "tr3.japancase.site",
+            "port": 443,
             "users": [
               {
-                "id": "49fdd350-6ffb-4343-b467-14e269bb95de",
+                "id": "db80088c-32a1-4cb8-a907-0f3cb7844152",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "360.yandex.ru",
-          "publicKey": "DvNpCmas0_0MO91s70vlkAxZxnnIt1NE0zqCC4trURQ",
+          "serverName": "tr3.japancase.site",
+          "publicKey": "B5Rbu23-J_PmzD6d-5ra_pxKaXd1MeRf6IT4jT_6PEM",
           "fingerprint": "firefox",
-          "shortId": "2bf10fc0a85601e5"
+          "shortId": "071c3bd86b0c3c73"
         }
       }
     },
