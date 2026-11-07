@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "nl3.japancase.site",
+            "address": "82.148.247.24",
             "port": 443,
             "users": [
               {
-                "id": "db80088c-32a1-4cb8-a907-0f3cb7844152",
+                "id": "16f5041e-7a72-44a0-afbf-744ec2bf1cc9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nl3.japancase.site",
-          "publicKey": "ZsKgmywoAPRRkYHqQ8hUHFB6X_f7tjXfYmvSeHj0-xQ",
+          "serverName": "nl1.xshoponline.ru",
+          "publicKey": "zZvOJ5dL9qvOjzg4u6f_Zo2j37cM6HOnOeUG02kcKCQ",
           "fingerprint": "firefox",
-          "shortId": "0d98b07acc98ccef"
+          "shortId": "5c3639b7"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "dddz-1-x.473221.xyz",
-            "port": 43116,
+            "address": "kla.xvanta.online",
+            "port": 443,
             "users": [
               {
-                "id": "65ec84f5-0dd4-4582-8b4f-592e50b22116",
+                "id": "71b566cb-78c4-48e4-af5b-720e4f7884f2",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "v1-dy.ixigua.com",
-          "publicKey": "rLU2xJNZPFvtHy49MygD-nta6OpJEbjarjAZ5vHwpVE",
+          "serverName": "kla.xvanta.online",
+          "publicKey": "hoHauvrxv1_BDg4CmiDMUSHUGQT1gAr8zochHEqPQx0",
           "fingerprint": "firefox",
-          "shortId": "29ad689280e2f0ec"
+          "shortId": "aa86e6cc3bf04e78"
         }
       }
     },
