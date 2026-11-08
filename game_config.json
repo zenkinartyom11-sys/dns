@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.148.247.24",
+            "address": "66.90.106.28",
             "port": 443,
             "users": [
               {
-                "id": "16f5041e-7a72-44a0-afbf-744ec2bf1cc9",
+                "id": "90157e25-cee1-4217-921e-91f300bc1a24",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "nl1.xshoponline.ru",
-          "publicKey": "zZvOJ5dL9qvOjzg4u6f_Zo2j37cM6HOnOeUG02kcKCQ",
+          "serverName": "banket-restoran.su",
+          "publicKey": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
           "fingerprint": "firefox",
-          "shortId": "5c3639b7"
+          "shortId": "428ef87fd47a3a32"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kla.xvanta.online",
+            "address": "81.177.215.122",
             "port": 443,
             "users": [
               {
-                "id": "71b566cb-78c4-48e4-af5b-720e4f7884f2",
+                "id": "9f9c913b-0b78-4d14-a4db-560794cbc90f",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "kla.xvanta.online",
-          "publicKey": "hoHauvrxv1_BDg4CmiDMUSHUGQT1gAr8zochHEqPQx0",
+          "serverName": "latino.plus-hit.ru",
+          "publicKey": "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI",
           "fingerprint": "firefox",
-          "shortId": "aa86e6cc3bf04e78"
+          "shortId": "7c8e3d4a9b1f26d3"
         }
       }
     },
