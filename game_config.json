@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "3.0.111.82",
-            "port": 17623,
+            "address": "189.74.106.141",
+            "port": 443,
             "users": [
               {
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
+                "id": "65a3bcca-4fd7-4898-8e0c-1740d0de7dd3",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "fingerprint": "firefox",
-          "shortId": "48050fab"
+          "serverName": "api.setevoypriliv.cc",
+          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+          "fingerprint": "safari",
+          "shortId": "a8"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "50.117.15.225",
+            "address": "ca1.fox-lisa.ru",
             "port": 443,
             "users": [
               {
-                "id": "67eb6b17-7797-4ded-bf52-423c4c5f6cbd",
+                "id": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.foxsports.com",
-          "publicKey": "G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY",
-          "fingerprint": "chrome",
-          "shortId": "91af08b1ce1f"
+          "serverName": "ca1.fox-lisa.ru",
+          "publicKey": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
+          "fingerprint": "firefox",
+          "shortId": "027af64166562b09"
         }
       }
     },
