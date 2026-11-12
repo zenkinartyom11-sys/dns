@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.204.97.206",
+            "address": "51.158.206.12",
             "port": 23576,
             "users": [
               {
@@ -118,7 +118,7 @@
         "realitySettings": {
           "serverName": "fuck.rkn",
           "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "shortId": ""
         }
       }
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.35",
+            "address": "67.159.44.219",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "90157e25-cee1-4217-921e-91f300bc1a24",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "edge",
-          "shortId": "c39cc7310a"
+          "serverName": "bestgif.su",
+          "publicKey": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "fingerprint": "firefox",
+          "shortId": "428ef87fd47a3a32"
         }
       }
     },
