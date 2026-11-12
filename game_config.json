@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "147.93.173.45",
-            "port": 10444,
+            "address": "68.168.218.151",
+            "port": 8443,
             "users": [
               {
-                "id": "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b",
+                "id": "fb31651b-55eb-4f3c-951d-d14e0375dc7a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "video.yandex.ru",
-          "publicKey": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
-          "fingerprint": "chrome",
-          "shortId": "8debcf36f1cc69ff"
+          "serverName": "beta.gridbase.com.do",
+          "publicKey": "cMfKDd3RQwvuvbQLR34MEBoHIRKetltLxLcpcpOQPQg",
+          "fingerprint": "firefox",
+          "shortId": "f106e6728da5c900"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.144.112.55",
+            "address": "152.70.58.201",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "8892e34a-339b-4526-b88d-cf68c516231c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "fingerprint": "chrome",
-          "shortId": "c39cc7310a"
+          "serverName": "www.nvidia.com",
+          "publicKey": "Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28",
+          "fingerprint": "firefox",
+          "shortId": "52c723e0fad49689"
         }
       }
     },
