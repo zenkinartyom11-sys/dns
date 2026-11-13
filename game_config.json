@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "lt.t1n2.com",
-            "port": 443,
+            "address": "138.124.125.193",
+            "port": 10444,
             "users": [
               {
-                "id": "a94d8907-6bbb-4570-80d3-dfdc314c1e7a",
+                "id": "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "lt.t1n2.com",
-          "publicKey": "awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0",
-          "fingerprint": "firefox",
-          "shortId": "b31de5bead2ebf3c"
+          "serverName": "ads.x5.ru",
+          "publicKey": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
+          "fingerprint": "random",
+          "shortId": "8debcf36f1cc69ff"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "50.7.169.242",
-            "port": 443,
+            "address": "5.104.74.70",
+            "port": 8443,
             "users": [
               {
-                "id": "33f3c1ee-f026-4f3f-bed3-8c7c01de8a96",
+                "id": "e2cfbfd7-462b-40ca-bb17-d07f0265558d",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "user.betust.net",
-          "publicKey": "TXP6hQVE4PdXDEdDk2k_5_f92jcOKZ15Fuw14jCJTQg",
+          "serverName": "uk-room07.filesnap.tech",
+          "publicKey": "48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM",
           "fingerprint": "firefox",
-          "shortId": "c1064ddb"
+          "shortId": "dbef98744832b751"
         }
       }
     },
