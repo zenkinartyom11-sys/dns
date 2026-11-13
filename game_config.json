@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "15.204.97.216",
-            "port": 23576,
+            "address": "lt.t1n2.com",
+            "port": 443,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "a94d8907-6bbb-4570-80d3-dfdc314c1e7a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "chrome",
-          "shortId": "01"
+          "serverName": "lt.t1n2.com",
+          "publicKey": "awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0",
+          "fingerprint": "firefox",
+          "shortId": "b31de5bead2ebf3c"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fdat.titun.su",
+            "address": "50.7.169.242",
             "port": 443,
             "users": [
               {
-                "id": "90157e25-cee1-4217-921e-91f300bc1a24",
+                "id": "33f3c1ee-f026-4f3f-bed3-8c7c01de8a96",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "banket-restoran.su",
-          "publicKey": "1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs",
+          "serverName": "user.betust.net",
+          "publicKey": "TXP6hQVE4PdXDEdDk2k_5_f92jcOKZ15Fuw14jCJTQg",
           "fingerprint": "firefox",
-          "shortId": "428ef87fd47a3a32"
+          "shortId": "c1064ddb"
         }
       }
     },
