@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.56.187.235",
+            "address": "158.101.151.157",
             "port": 443,
             "users": [
               {
-                "id": "c61d087d-f025-40d2-bfd7-b7302f9e05b9",
+                "id": "66171cbe-0b4b-4b24-99f6-d5a822f4dc9a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "estonia.izzzyvpn.space",
-          "publicKey": "XmvhirU6V5lOl__xGziMlYSTmYef6cY52xNM8_N-Dns",
+          "serverName": "www.microsoft.com",
+          "publicKey": "99eQkMBHqOEKororOWKFlmH8M0o9VaVpV9w1vQIxhz8",
           "fingerprint": "firefox",
-          "shortId": "b9d8c8addd2e5f70"
+          "shortId": "684c7531e599dec0"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "91.211.14.32",
+            "address": "83.141.68.232",
             "port": 443,
             "users": [
               {
-                "id": "bccf444b-f156-4cdb-80ab-4bc5da3a451c",
+                "id": "7d718630-7a1a-4af8-9332-aa0610634e8a",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "crystalripple.website",
-          "publicKey": "mE0sP1vjLBl1AXDc2U18AqOC-fXnyzXAFSsSCoKAWmY",
-          "fingerprint": "qq",
-          "shortId": "2b421b5cae30d789"
+          "serverName": "fieldnote.lalibobi.online",
+          "publicKey": "RDFOZiTfbF3lzMcJGSm9rODFi1ErzlqqADAHQUpU2xs",
+          "fingerprint": "firefox",
+          "shortId": "d06c37930f65c360"
         }
       }
     },
