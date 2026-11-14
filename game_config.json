@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "138.124.125.193",
-            "port": 10444,
+            "address": "31.56.187.235",
+            "port": 443,
             "users": [
               {
-                "id": "e57ce64d-5a1a-4a90-96df-9e1bd3ad26e4",
+                "id": "c61d087d-f025-40d2-bfd7-b7302f9e05b9",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "ads.x5.ru",
-          "publicKey": "0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo",
-          "fingerprint": "random",
-          "shortId": "8debcf36f1cc69ff"
+          "serverName": "estonia.izzzyvpn.space",
+          "publicKey": "XmvhirU6V5lOl__xGziMlYSTmYef6cY52xNM8_N-Dns",
+          "fingerprint": "firefox",
+          "shortId": "b9d8c8addd2e5f70"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.104.74.70",
-            "port": 8443,
+            "address": "91.211.14.32",
+            "port": 443,
             "users": [
               {
-                "id": "e2cfbfd7-462b-40ca-bb17-d07f0265558d",
+                "id": "bccf444b-f156-4cdb-80ab-4bc5da3a451c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "uk-room07.filesnap.tech",
-          "publicKey": "48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM",
-          "fingerprint": "firefox",
-          "shortId": "dbef98744832b751"
+          "serverName": "crystalripple.website",
+          "publicKey": "mE0sP1vjLBl1AXDc2U18AqOC-fXnyzXAFSsSCoKAWmY",
+          "fingerprint": "qq",
+          "shortId": "2b421b5cae30d789"
         }
       }
     },
