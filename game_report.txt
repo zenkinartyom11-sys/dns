@@ -1,8 +1,8 @@
-# GAME CHECK 2026-11-15 06:49 UTC
+# GAME CHECK 2026-11-15 16:27 UTC
 Серверов в конфиге: 2; мёртвых (по проверке с GitHub): 1
 Режим: замена ВСЕХ серверов свежими при каждом прогоне
-proxy: заменён -> 163.245.42.87:443 sni=mother-earth.fyi (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
-amazon: заменён -> 103.111.114.136:443 sni=videos.porsche.com (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: белый (аварийный запас))
+proxy: заменён -> d4a338t.pl8.h1clayd.click:443 sni=d4a338t.pl8.h1clayd.click (тип ('reality', 'tcp', 'xtls-rprx-vision') сохранён, источник: чёрный)
+amazon: НЕ заменён — кандидаты типа ('reality', 'tcp', 'xtls-rprx-vision') все мертвы
 URL подписки для Happ: https://raw.githubusercontent.com/zenkinartyom11-sys/dns/main/game_config.json
 Deeplink (Android, открыть тапом в браузере, НЕ вставлять в поле URL): happ://add/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3plbmtpbmFydHlvbTExLXN5cy9kbnMvbWFpbi9nYW1lX2NvbmZpZy5qc29u
-Время: 59 сек
+Время: 77 сек

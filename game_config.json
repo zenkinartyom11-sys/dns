@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "163.245.42.87",
+            "address": "d4a338t.pl8.h1clayd.click",
             "port": 443,
             "users": [
               {
-                "id": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+                "id": "2208b003-78b1-453c-b5ca-ce847ff0efd6",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "mother-earth.fyi",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "d4a338t.pl8.h1clayd.click",
+          "publicKey": "0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "b545243c33282b73"
         }
       }
     },
