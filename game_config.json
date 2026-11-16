@@ -99,7 +99,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "d4a338t.pl8.h1clayd.click",
+            "address": "91.213.186.45",
+            "port": 46986,
+            "users": [
+              {
+                "id": "71327a90-b9c4-4385-b850-4d3c5832d9cc",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.paypal.com",
+          "publicKey": "5Uk63lFOn1Z3gmImXWrXbvQ0b9gXTOiY_VWuI898Vmk",
+          "fingerprint": "firefox",
+          "shortId": ""
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "132.243.66.234",
             "port": 443,
             "users": [
               {
@@ -116,40 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "d4a338t.pl8.h1clayd.click",
-          "publicKey": "0dAUffCns_r-xP3QP1V8qy2P29vBN5ROOoX96TxpvXA",
+          "serverName": "ce5afbt.us14.h1clayd.click",
+          "publicKey": "h1RM4xbCSspYaSwNHFIeECHKJ0gdvE6ezCqlAuFiC04",
           "fingerprint": "firefox",
-          "shortId": "b545243c33282b73"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "103.111.114.136",
-            "port": 443,
-            "users": [
-              {
-                "id": "555b35c4-30f9-40c6-a61a-7f53ab1bea45",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "videos.porsche.com",
-          "publicKey": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "fingerprint": "firefox",
-          "shortId": "1a2b3c4d"
+          "shortId": "d475b402ccbe2ff9"
         }
       }
     },
