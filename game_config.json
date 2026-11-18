@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "169.40.42.74",
+            "address": "201.58.134.155",
             "port": 443,
             "users": [
               {
-                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
+                "id": "1ab3c7c3-e1cf-4a20-bd19-ea9041e5518b",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "yahoo.com",
-          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "serverName": "mena-images.shop.samsung.com",
+          "publicKey": "A97fxYOlZFXzk9At5tXIU9PuCdvF42o0JQdovTq0wi8",
           "fingerprint": "firefox",
-          "shortId": "c39cc7310a"
+          "shortId": "2958ac91fd7d96"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "179.254.92.134",
+            "address": "83.147.18.3",
             "port": 443,
             "users": [
               {
-                "id": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+                "id": "9f61cdf4-810d-4052-bbc7-2da0c8e20104",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets-70.topp-con.xyz",
-          "publicKey": "OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw",
+          "serverName": "www.cloudflare.com",
+          "publicKey": "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA",
           "fingerprint": "chrome",
-          "shortId": "c33807f76b689c9a"
+          "shortId": "fd8cf7e1173f0edb"
         }
       }
     },
