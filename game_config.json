@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "50.7.41.165",
+            "address": "45.144.112.55",
             "port": 443,
             "users": [
               {
-                "id": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "game.recrent-sell.com",
-          "publicKey": "2CF-e4pN44pAietCG8OmIYBuSY9Iq2n0lGmU76vmEFs",
-          "fingerprint": "qq",
-          "shortId": ""
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "firefox",
+          "shortId": "c39cc7310a"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "78.17.215.138",
+            "address": "169.40.42.89",
             "port": 443,
             "users": [
               {
-                "id": "a346c521-7a7f-452b-9356-a4893feb5982",
+                "id": "d65cc14c-f53f-4fe2-b262-97856601319c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "de12-r.bankai.party",
-          "publicKey": "FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0",
-          "fingerprint": "qq",
-          "shortId": ""
+          "serverName": "yahoo.com",
+          "publicKey": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "fingerprint": "chrome",
+          "shortId": "c39cc7310a"
         }
       }
     },
