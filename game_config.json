@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.103",
-            "port": 23576,
+            "address": "5.180.27.134",
+            "port": 443,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "fa906181-5d9b-4ff6-8a81-e6148ce4ece7",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "chrome",
-          "shortId": "01"
+          "serverName": "kz.koteika3528.dev",
+          "publicKey": "qljbddkyGqBkkOnPdvgw4s6HX_iyEUB2qesNM1qiFg0",
+          "fingerprint": "firefox",
+          "shortId": "36f3c7"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.25",
-            "port": 23576,
+            "address": "140.245.113.33",
+            "port": 443,
             "users": [
               {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+                "id": "f4ca59b2-767d-3425-8dfc-95a96a0e6802",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "firefox",
-          "shortId": "01"
+          "serverName": "learn.microsoft.com",
+          "publicKey": "tF9nKF6amexok5wKbieQ2QRKQI5_ZTFE6MUj1hUBBkY",
+          "fingerprint": "chrome",
+          "shortId": "c940a3b6d60b8611"
         }
       }
     },
