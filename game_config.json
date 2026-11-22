@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.116.27.6",
+            "address": "185.95.231.156",
             "port": 443,
             "users": [
               {
-                "id": "7e81eba3-28fe-4cf6-b397-d5c08fea38ab",
+                "id": "1f8cf47a-b66a-4916-979f-26edfcf44eea",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.sony.co.uk",
-          "publicKey": "mprwTEsQ9nJ78qG7BJskAWXaVfDxeMHBkQHbReVfMnc",
+          "serverName": "www.apple.com",
+          "publicKey": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
           "fingerprint": "firefox",
-          "shortId": "1174"
+          "shortId": "a3a578ab"
         }
       }
     },
@@ -129,7 +129,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "51.158.206.93",
+            "address": "15.204.97.195",
             "port": 23576,
             "users": [
               {
@@ -148,7 +148,7 @@
         "realitySettings": {
           "serverName": "fuck.rkn",
           "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "firefox",
+          "fingerprint": "chrome",
           "shortId": "01"
         }
       }
