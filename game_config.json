@@ -99,6 +99,36 @@
       "settings": {
         "vnext": [
           {
+            "address": "153.80.22.106",
+            "port": 443,
+            "users": [
+              {
+                "id": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "rusbox729.alexdjane.am",
+          "publicKey": "IU5C8_llRrimMDeJDPc3XM256DZOWIYblUdDYilAcFM",
+          "fingerprint": "firefox",
+          "shortId": "686f7ed96ec0227d"
+        }
+      }
+    },
+    {
+      "tag": "amazon",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "185.95.231.156",
             "port": 443,
             "users": [
@@ -120,36 +150,6 @@
           "publicKey": "8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To",
           "fingerprint": "firefox",
           "shortId": "a3a578ab"
-        }
-      }
-    },
-    {
-      "tag": "amazon",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "15.204.97.195",
-            "port": 23576,
-            "users": [
-              {
-                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "fuck.rkn",
-          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
-          "fingerprint": "chrome",
-          "shortId": "01"
         }
       }
     },
