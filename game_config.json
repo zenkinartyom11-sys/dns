@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "140.245.113.33",
-            "port": 443,
+            "address": "94.183.164.119",
+            "port": 8443,
             "users": [
               {
-                "id": "f4ca59b2-767d-3425-8dfc-95a96a0e6802",
+                "id": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "learn.microsoft.com",
-          "publicKey": "tF9nKF6amexok5wKbieQ2QRKQI5_ZTFE6MUj1hUBBkY",
-          "fingerprint": "firefox",
-          "shortId": "c940a3b6d60b8611"
+          "serverName": "tgnl2.blog-forme.ru",
+          "publicKey": "31_G-lTr8GVS33I-ySfmMOXJ7SzpS48Ela7xXeT9D1Y",
+          "fingerprint": "qq",
+          "shortId": "29f834cf893710f9"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "67.220.73.204",
-            "port": 16016,
+            "address": "45.90.59.15",
+            "port": 443,
             "users": [
               {
-                "id": "814bd064-544d-4255-a070-5705c03f6da9",
+                "id": "3950b45e-740d-4dca-ac95-505ec8534592",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
-          "fingerprint": "firefox",
-          "shortId": "48050fab"
+          "serverName": "www.cloudflare.com",
+          "publicKey": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
+          "fingerprint": "random",
+          "shortId": "19253fae84102271"
         }
       }
     },
