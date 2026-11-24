@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "94.183.164.119",
-            "port": 8443,
+            "address": "50.7.169.243",
+            "port": 443,
             "users": [
               {
-                "id": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+                "id": "33f3c1ee-f026-4f3f-bed3-8c7c01de8a96",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "tgnl2.blog-forme.ru",
-          "publicKey": "31_G-lTr8GVS33I-ySfmMOXJ7SzpS48Ela7xXeT9D1Y",
-          "fingerprint": "qq",
-          "shortId": "29f834cf893710f9"
+          "serverName": "user.betust.net",
+          "publicKey": "TXP6hQVE4PdXDEdDk2k_5_f92jcOKZ15Fuw14jCJTQg",
+          "fingerprint": "chrome",
+          "shortId": "c1064ddb"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.90.59.15",
+            "address": "103.249.134.74",
             "port": 443,
             "users": [
               {
-                "id": "3950b45e-740d-4dca-ac95-505ec8534592",
+                "id": "a9d963bc-81a1-42b5-b62d-104af19a0f5c",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.cloudflare.com",
-          "publicKey": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-          "fingerprint": "random",
-          "shortId": "19253fae84102271"
+          "serverName": "bg-meteo-grid.keno.su",
+          "publicKey": "ZWPgFvU3iu9HRQ6Zd8WEdN0Zk8yHZQCEyE15LjOxGRU",
+          "fingerprint": "firefox",
+          "shortId": "788a109a349ed9cf"
         }
       }
     },
