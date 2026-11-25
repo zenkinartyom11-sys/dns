@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.177.26.55",
-            "port": 443,
+            "address": "62.210.91.10",
+            "port": 23576,
             "users": [
               {
-                "id": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "repo-16.topp-con.xyz",
-          "publicKey": "cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8",
-          "fingerprint": "firefox",
-          "shortId": "bdaddda4cbc8c7bf"
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "fingerprint": "chrome",
+          "shortId": "01"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "179.254.94.184",
-            "port": 443,
+            "address": "51.158.206.86",
+            "port": 23576,
             "users": [
               {
-                "id": "2f12e5b5-6ce7-47ab-88b9-6110c1a3fc60",
+                "id": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.bing.com",
-          "publicKey": "q49v36UVMNsNION3nn-cQU6_8VwgM_psm1s5z7XVaWc",
+          "serverName": "fuck.rkn",
+          "publicKey": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
           "fingerprint": "firefox",
-          "shortId": "e6052385636f0700"
+          "shortId": "01"
         }
       }
     },
