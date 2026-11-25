@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "50.7.169.243",
+            "address": "192.177.26.55",
             "port": 443,
             "users": [
               {
-                "id": "33f3c1ee-f026-4f3f-bed3-8c7c01de8a96",
+                "id": "7ad63b26-bf70-4872-8fab-ebaf73a1e19d",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "user.betust.net",
-          "publicKey": "TXP6hQVE4PdXDEdDk2k_5_f92jcOKZ15Fuw14jCJTQg",
-          "fingerprint": "chrome",
-          "shortId": "c1064ddb"
+          "serverName": "repo-16.topp-con.xyz",
+          "publicKey": "cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8",
+          "fingerprint": "firefox",
+          "shortId": "bdaddda4cbc8c7bf"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.249.134.74",
+            "address": "179.254.94.184",
             "port": 443,
             "users": [
               {
-                "id": "a9d963bc-81a1-42b5-b62d-104af19a0f5c",
+                "id": "2f12e5b5-6ce7-47ab-88b9-6110c1a3fc60",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "bg-meteo-grid.keno.su",
-          "publicKey": "ZWPgFvU3iu9HRQ6Zd8WEdN0Zk8yHZQCEyE15LjOxGRU",
+          "serverName": "www.bing.com",
+          "publicKey": "q49v36UVMNsNION3nn-cQU6_8VwgM_psm1s5z7XVaWc",
           "fingerprint": "firefox",
-          "shortId": "788a109a349ed9cf"
+          "shortId": "e6052385636f0700"
         }
       }
     },
