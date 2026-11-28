@@ -99,11 +99,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "116.213.43.43",
-            "port": 11103,
+            "address": "88.216.72.171",
+            "port": 443,
             "users": [
               {
-                "id": "bb836d81-d0c5-4f01-a584-806cdf65e36a",
+                "id": "2098ca45-e61c-0013-ad7d-8badb6b154f4",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -116,10 +116,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.apple.com",
-          "publicKey": "5NNdXPMTBLP-xeDKFwcG-j6u-c4DhXIfnlHMqMJZ4n4",
-          "fingerprint": "chrome",
-          "shortId": "9564e1a7a1cf8b3a"
+          "serverName": "se-sto1.connect.accessboy.com",
+          "publicKey": "1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4",
+          "fingerprint": "firefox",
+          "shortId": "1c5869a95671bcb0"
         }
       }
     },
@@ -129,11 +129,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "48.103.122.20",
+            "address": "84.32.108.50",
             "port": 443,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "id": "2098ca45-e61c-001d-ad7d-8badb6b154f4",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -146,10 +146,10 @@
         "tcpSettings": {},
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "serverName": "nl-ams1.connect.accessboy.com",
+          "publicKey": "1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4",
           "fingerprint": "firefox",
-          "shortId": ""
+          "shortId": "1c5869a95671bcb0"
         }
       }
     },
